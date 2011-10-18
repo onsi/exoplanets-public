@@ -1,0 +1,609 @@
+body {
+    margin:0;
+    font: normal normal normal 11pt "Tahoma", sans-serif;    
+    color:rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    background-image: url(./images/frontend/background.jpg);
+    text-shadow: #000 0px 0px 2px;
+    
+}
+
+/* content styles */
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    margin-top:0px;
+    text-shadow: #fff 0px 0px 4px;
+}
+h2 {
+    font-size:18pt;
+}
+hr {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.footnote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size:10pt;
+}
+div.deprecated {
+    opacity: 0.5;
+}
+div.deprecated:hover {
+    opacity: 0.8;
+}
+
+div.buttonStyleLeft {
+    float:left;
+}
+div.buttonStyleRight {
+    float:right;
+}
+div.highlight {
+    font-weight:bold;
+}
+div.center {
+    text-align:center;
+}
+a:link {
+    color:#6D76F7;
+    text-shadow: #6D76F7 0px 0px 2px;
+}
+a:visited {
+    color:#7151E4;
+    text-shadow: #7151E4 0px 0px 2px;
+}
+a:hover {
+    text-shadow: #fff 0px 0px 2px;
+    color:#FFF;
+}
+a:active {
+    color:#FFF;
+    text-shadow: none;
+}
+
+a.hiddenAnchor {
+    color:#FFF;
+    text-shadow: #000 0px 0px 2px;
+    text-decoration:none;
+}
+
+li {
+    margin-bottom:5px;
+    list-style-image: url(./images/frontend/bullet.png);
+}
+
+/* layout and menu */
+
+#content {
+    position:absolute;
+    top:115px;
+    text-align:justify;
+    z-index:1;
+}
+
+#menu {
+    position:absolute;
+    top:100px;
+    width:250px;
+    z-index:1;
+}
+
+#menu > a {
+    color:#fff;
+    text-decoration:none;
+}
+
+#IE {
+    position:absolute;
+    top:10px;
+    right:0px;
+    padding-left:30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:20px;
+    width:400px;
+    z-index:10;
+    font-size:11pt;
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#000000', EndColorStr='#49679E')
+}
+
+div.menuItemContents {
+    position:absolute;
+    width:230px;
+    left:10px;
+}
+
+div.menuItem {
+    position:absolute;
+    width:250px;
+    height:80px;
+    background-image: url(./images/frontend/menu_item.png);
+    font-size: 14pt;
+    font-weight:bold;
+    text-shadow: #000 0px 0px 8px;
+}
+
+div.menuItem.TL {
+    background-image: url(./images/frontend/menu_tl.png);
+}
+
+div.menuItem.B {
+    background-image: url(./images/frontend/menu_b.png);
+}
+
+div.menuItem.current {
+    background-image: url(./images/frontend/menu_item_active.png);
+    text-shadow: #fff 0px 0px 4px;
+}
+
+div.menuItem.TL.current {
+    background-image: url(./images/frontend/menu_tl_active.png);
+    text-shadow: #fff 0px 0px 4px;
+}
+
+div.menuItem.B.current {
+    background-image: url(./images/frontend/menu_b_active.png);
+    text-shadow: #fff 0px 0px 4px;
+}
+
+div.menuItem:hover {
+    background-image: url(./images/frontend/menu_item_active.png);
+    cursor:pointer;
+}
+
+div.menuItem.TL:hover {
+    background-image: url(./images/frontend/menu_tl_active.png);
+}
+
+div.menuItem.B:hover {
+    background-image: url(./images/frontend/menu_b_active.png);
+}
+
+div.separator {
+    position:absolute;
+    width:250px;
+    height:1px;
+    background-image: url(./images/frontend/separator.png);
+}
+
+#divContainer {
+    position:absolute;
+    width:100%;
+    min-width:930px;
+}
+
+#exoplanetsText {
+    position:absolute;
+    height:50px;
+    width:366px;
+    top:26px;
+    background-image: url(./images/frontend/exoplanets.png);
+}
+
+#exoplanetsFlareText {
+    position:absolute;
+    height:150px;
+    width:420px;
+    top:0px;
+    left:0px;
+    background-image: url(./images/frontend/exoplanetsFlare.png);
+    z-index:2;
+}
+
+#planet {
+    position:absolute;
+    background-image: url(./images/frontend/planet.png);
+    width:900px;
+    height:530px;
+    bottom:0px;
+}
+
+#planet_br {
+    position:absolute;
+    background-image: url(./images/frontend/planet_br.png);
+    width:450px;
+    height:400px;
+    bottom:-50px;
+    right:0px;
+}
+
+#planet_tr {
+    position:absolute;
+    background-image: url(./images/frontend/planet_tr.png);
+    width:300px;
+    height:300px;
+    top:0px;
+    right:0px;
+}
+
+#containerTop {
+    position:absolute;
+    top:85px;
+    height:300px;
+}
+
+#containerTL {
+    position:absolute;
+    left:0px;
+    width:285px;
+    height:300px;
+    background-image:url(./images/frontend/container_tl.png);
+}
+
+#containerTM {
+    position:absolute;
+    left:285px;
+    right:45px;
+    height:300px;
+    background-image:url(./images/frontend/container_tm.png);
+}
+
+#containerTR {
+    position:absolute;
+    right:0px;
+    width:45px;
+    height:300px;
+    background-image:url(./images/frontend/container_tr.png);
+}
+
+#containerMiddle {
+    position:absolute;
+    top:385px;
+    bottom:195px;
+}
+
+#containerML {
+    position:absolute;
+    left:0px;
+    width:285px;
+    height:100%;
+    background-image:url(./images/frontend/container_ml.png);
+}
+
+#containerMM {
+    position:absolute;
+    left:285px;
+    right:45px;
+    height:100%;
+    background-image:url(./images/frontend/container_mm.png);
+}
+
+#containerMR {
+    position:absolute;
+    right:0px;
+    width:45px;
+    height:100%;
+    background-image:url(./images/frontend/container_mr.png);
+}
+
+#containerBottom {
+    position:absolute;
+    height:160px;
+    bottom:35px;
+}
+
+#containerBL {
+    position:absolute;
+    left:0px;
+    width:285px;
+    height:160px;
+    background-image:url(./images/frontend/container_bl.png);
+}
+
+#containerBM {
+    position:absolute;
+    left:285px;
+    right:45px;
+    height:160px;
+    background-image:url(./images/frontend/container_bm.png);
+}
+
+#containerBR {
+    position:absolute;
+    right:0px;
+    width:45px;
+    height:160px;
+    background-image:url(./images/frontend/container_br.png);
+}
+
+/* EDE Icons */
+div.icon-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    clear: both;
+}
+div.clear {
+    clear: both;
+}
+a.table {
+    display: block;
+    float: left;
+    background-image:url(./images/frontend/ede_icons.png);
+    width: 290px;
+    height: 190px;
+}
+a.table:hover {
+    background-position: 0px 190px;
+}
+a.plot {
+    display: block;
+    float: left;
+    background-image:url(./images/frontend/ede_icons.png);
+    width: 310px;
+    height: 190px;
+    background-position: 312px 0px;
+    
+}
+a.plot:hover {
+    background-position: 312px 190px;
+}
+
+
+/* logos */
+#logoContainer {
+    position:absolute;
+    top:44px;
+    height:100px;
+    width:800px;
+}
+
+div.logo {
+    position:absolute;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+
+div.logo:hover {
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    cursor:pointer;
+}
+
+div.ucb {
+    width:70px;
+    height:70px;
+    background-image:url(./images/frontend/logos/ucberkeley.png);
+}
+
+div.cips {
+    width:105px;
+    height:35px;
+    background-image:url(./images/frontend/logos/cips.png);
+}
+
+div.penn {
+    width:123px;
+    height:55px;
+    background-image:url(./images/frontend/logos/penn.png);
+}
+
+div.cehw {
+    width:129px;
+    height:35px;
+    background-image:url(./images/frontend/logos/cehw.png);
+}
+
+div.nsf {
+    width:70px;
+    height:70px;
+    background-image:url(./images/frontend/logos/nsf.png);
+}
+
+div.nasa {
+    width:84px;
+    height:70px;
+    background-image:url(./images/frontend/logos/nasa.png);
+}
+
+
+
+/* rounded corners */
+
+div.rc_container {
+    position:relative;
+}
+div.rc_container:hover {
+    cursor:pointer;
+}
+
+div.rc_contents {
+    position:absolute;
+    z-index:1;
+}
+
+div.rc_container > div.rc_top {
+    position:absolute;
+    width:100%;
+    top:0px;
+    height:16px;
+}
+
+div.rc_container > div.rc_top > div.rc_tl {
+    position:absolute;
+    width:16px;
+    height:16px;
+    background-image:url(./images/frontend/rc_tl.png);
+}
+div.rc_container > div.rc_top > div.rc_tm {
+    position:absolute;
+    left:16px;
+    right:16px;
+    height:16px;
+    background-image:url(./images/frontend/rc_tm.png);
+}
+div.rc_container > div.rc_top > div.rc_tr {
+    position:absolute;
+    right:0px;
+    width:16px;
+    height:16px;
+    background-image:url(./images/frontend/rc_tr.png);
+}
+
+div.rc_container > div.rc_mid {
+    position:absolute;
+    width:100%;
+    top:16px;
+    bottom:16px;
+}
+
+div.rc_container > div.rc_mid > div.rc_ml {
+    position:absolute;
+    width:16px;
+    height:100%;
+    background-image:url(./images/frontend/rc_ml.png);
+}
+div.rc_container > div.rc_mid > div.rc_mm {
+    position:absolute;
+    left:16px;
+    right:16px;
+    height:100%;
+    background-image:url(./images/frontend/rc_mm.png);
+}
+div.rc_container > div.rc_mid > div.rc_mr {
+    position:absolute;
+    right:0px;
+    width:16px;
+    height:100%;
+    background-image:url(./images/frontend/rc_mr.png);
+}
+
+div.rc_container > div.rc_bottom {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    height:16px;
+}
+
+div.rc_container > div.rc_bottom > div.rc_bl {
+    position:absolute;
+    width:16px;
+    height:16px;
+    background-image:url(./images/frontend/rc_bl.png);
+}
+div.rc_container > div.rc_bottom > div.rc_bm {
+    position:absolute;
+    left:16px;
+    right:16px;
+    height:16px;
+    background-image:url(./images/frontend/rc_bm.png);
+}
+div.rc_container > div.rc_bottom > div.rc_br {
+    position:absolute;
+    right:0px;
+    width:16px;
+    height:16px;
+    background-image:url(./images/frontend/rc_br.png);
+}
+
+
+div.rc_container:hover > div.rc_top > div.rc_tl {
+    background-image:url(./images/frontend/rc_tl_s.png);
+}
+div.rc_container:hover > div.rc_top > div.rc_tm {
+    background-image:url(./images/frontend/rc_tm_s.png);
+}
+div.rc_container:hover > div.rc_top > div.rc_tr {
+    background-image:url(./images/frontend/rc_tr_s.png);
+}
+div.rc_container:hover > div.rc_mid > div.rc_ml {
+    background-image:url(./images/frontend/rc_ml_s.png);
+}
+div.rc_container:hover > div.rc_mid > div.rc_mm {
+    background-image:url(./images/frontend/rc_mm_s.png);
+}
+div.rc_container:hover > div.rc_mid > div.rc_mr {
+    background-image:url(./images/frontend/rc_mr_s.png);
+}
+div.rc_container:hover > div.rc_bottom > div.rc_bl {
+    background-image:url(./images/frontend/rc_bl_s.png);
+}
+div.rc_container:hover > div.rc_bottom > div.rc_bm {
+    background-image:url(./images/frontend/rc_bm_s.png);
+}
+div.rc_container:hover > div.rc_bottom > div.rc_br {
+    background-image:url(./images/frontend/rc_br_s.png);
+}
+
+/* Ads */
+
+div.PennStateWorkshopAd {
+    position:relative;
+    height:160px;
+    width:80%;
+    background-image:url(./images/PennStateWorkshopAd.jpg);
+    background-color:#000;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -webkit-box-shadow:0px 0px 14px #7f99c0;
+    -moz-box-shadow:0px 0px 14px #7f99c0;
+    cursor:pointer;
+}
+
+div.PennStateWorkshopAd > div {
+    position:absolute;
+}
+
+div.PennStateWorkshopAd > div > div {
+    width:100%;
+    text-align:center;
+    font-size:18pt;    
+    font-weight:bold;
+}
+
+div.PennStateWorkshopAd > div >div + div {
+    width:100%;
+    padding-top:20px;
+    font-size:14pt;
+    text-align:center;
+    font-weight:bold;
+}
+
+div.IcarusAd {
+    position:relative;
+    height:200px;
+    width:80%;
+    background-image:url(./images/IcarusAd.jpg);
+    background-position: top left;
+    background-color:#000;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -webkit-box-shadow:0px 0px 14px #7f99c0;
+    -moz-box-shadow:0px 0px 14px #7f99c0;
+    cursor:pointer;
+}
+
+div.IcarusAd > div {
+    position:absolute;
+    padding:10px;
+}
+
+div.IcarusAd > div > div {
+    width:100%;
+    text-align:center;
+    font-size:16pt;    
+    font-weight:bold;
+}
+
+div.IcarusAd > div >div + div {
+    width:100%;
+    padding-top:20px;
+    font-size:10pt;
+    text-align:justify;
+    font-weight:normal;
+}
+

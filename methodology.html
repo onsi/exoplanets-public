@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Exoplanet Orbit Database | Methodology</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Onsi Fakhouri">
+    <link href="./exoFrontend.css" rel="stylesheet" type="text/css" /> 
+	<!-- Date: 2009-12-18 -->
+</head>
+<body> 
+    <div id="menu"> 
+        <div linkTo="./index.html">Exoplanet Data Explorer</div> 
+        <div linkTo="./methodology.html" isCurrent='true'>Methodology
+	  and FAQ</div> 
+        <div linkTo="./exoplanetlinks.html">Exoplanets Links</div> 
+        <div linkTo="http://www.exoplanets.org/cps.html">California Planet Survey</div> 
+    </div> 
+    <div id="content"> 
+        <h1> 
+        Documentation and Methodology
+        </h1> 
+      <P>The Exoplanet Data Explorer (EDE) gives Web users access to the
+      Exoplanet Orbit Database (EOD).  
+        <p>Our full methodology is <a href="http://adsabs.harvard.edu/abs/2011PASP..123..412W">here</a> and is available on <a href="http://xxx.lanl.gov/abs/1012.5676">astro-ph</a>.</p> 
+<h1>FAQ</h1> 
+<h3>Why should I use the EOD instead of one of the other lists of
+exoplanets?</h3> 
+If you are interested in:
+      <ul><li>The most accurate orbital ephemerides for known planets</li> 
+	<li>A carefully vetted list of confidently detected exoplanets
+      with well measured orbital properties from the peer-reviewed literature</li> 
+      <li>Transit data, such as planet-star radius ratios and transit
+      durations</li> 
+      <li> An elegant and powerful plotting tool for presentation- or
+      publication-quality plots
+      </ul>  then we believe you should use our site.  Other sites
+      include announced planets whose 
+properties and existence have not been scrutinized by peer review, and
+lack many of the stellar and transit fields our site has.  Our site
+has also corrected many typos appearing in the literature.
+<P>On the other hand, if you want a comprehensive list of all planet
+announcements that have not been disproven; or a list of real planets
+that lack well-measured orbits (including microlensing planets and
+imaged planets); or planets orbiting things other than single,
+"ordinary" stars (like pulsars, white dwarfs, or hot subdwarfs); or
+you would like to decide for yourself which planets to include in your
+sample, you should use another site (we list our favorite ones <a
+href="./exoplanetlinks.html">here</a>).  We use these sites regularly
+      to keep up-to-date on planet discoveries, and we share
+      information with them about literature errors. We consider these
+      sites complementary, serving slightly different purposes from exoplanets.org.
+ 
+<h3>Why isn't my favorite exoplanet/datum listed in the EOD?</h3> 
+      <center>and</center> 
+      <h3>Why does your site list fewer planets than site X?</h3> 
+There are four primary reasons:
+<ul> 
+<li>The EOD contains only carefully vetted, <i>peer-reviewed</i> data.  If
+your favorite planet has not been published (or accepted for
+publication) in a peer-reviewed journal, it will not appear in this
+Database, with rare exceptions. Also, in
+ a small number of cases we have made a judgement call that a peer-reviewed datum
+  (or planet) is not up to the Database's standards, or uses an
+  unproven method whose results we are not comfortable including.
+  Basically, we have done a lot of work
+  to keep an updated list of planets with "good" orbits by our own
+  published and peer-reviewed criteria, and
+  this database is our way to share that list with the public.  
+<li>The EOD is a database of stellar properties, transit parameters,
+  and orbital elements of planets around "normal" stars.  If an
+  exoplanet's orbit is not well measured (because it was discovered via
+  imaging, for instance),
+  it is not in our database
+  <li>We are not all-seeing;  sometimes we miss an ephemeris update,
+  or even a whole planet!
+  If you know of a better source of data than the reference in our
+  table (or find an error!), please <a
+  href="mailto:onsi@berkeley.edu">let us know</a>.
+  <li> We are not fast;  it can take time for us to fully digest a new
+  planet announcement, decide that it warrants inclusion, enter the
+  data, verify the transcription, and sync up the EOD with the EDE.  Summer updates may be
+  especially slow.
+</ul> 
+<h3>Why don't the numbers in the EDE agree with the numbers in the
+reference / exported
+file?</h3> 
+The EDE displays data with a conservative "significant figures"
+algorithm.  The exported CSV files contain the data at the "full precision" stored
+in the database, which should be consistent with the literature values
+to machine precision.  Thus, if the literature lists a datum as 1001
+with a standard error of 100, that will appear in the CSV as such, but the EDE
+will display "1000 +/- 100" because it deems the trailing "1" not
+significant.  This concession is necessary to make the online tables
+easily readable; the machine-readable exported files have full
+fidelity to the literature. 
+<P>We have also made some minor modifications to data to make it
+conform to our database standards -- for instance we restrict the
+domain of little omega to [0,360).
+<h3>Why doesn't FIRSTREF refer to this prior press release / poster
+abstract / conference proceeding ?</h3> 
+The EOD contains only peer-reviewed references; see below.  The
+FIRSTREF field is not a "credit" field.<P> 
+<h3>How do I make the Table/Plotter do what I want?</h3> 
+Try the <a href="./exohelp/exoHelp.html">help page</a>.  This is a
+bit out of date;  documenting the features of the Plotter and Table is our top current
+development priority.
+<h3>Why doesn't the "Export" button export all of the data in the
+      EOD?</h3> 
+The "Export" button in the EDE Table exports the table as you, the
+      user, have currently displayed it.  If you would like the entire
+      database, it is available in a single click on the front page,
+      or <a href="./exoplanets.csv">here</a>.
+	<h1> 
+	  Major updates:
+	  </h1> 
+	The most important updates from the Wright et al. 2011 documentation of the EODs are below:
+	<h3>RSTAR</h3> 
+	For stars with transiting planets, we record the radius with asymmetrical error bars when it is calculated in the literature.  
+For other stars with masses less than 0.6 Solar mass, we apply
+ the formula of <a href="http://adsabs.harvard.edu/abs/2010A%26ARv..18...67T">Torres et al (2010)</a> to our recorded spectroscopic parameters, log(g), Teff, 
+and [Fe/H].   The Torres formula has systematic errors of no more than 3%.  We propagate errors from our spectroscopic parameters assuming no
+covariance into the field URSTAR.
+	<h3>Kepler planets</h3> 
+	The extraordinary precision of the Kepler instrument and detailed ground-based follow up allows planets to be detected purely photometrically, without the usual spectroscopic orbital parameter K.
+        Since these planets' reality can be established as well as any in the EOD, and since a precise ephemeris is available, we have opted to include Kepler planets in the EOD even in those cases
+        where the planets' radial velocity signature has not been
+      measured.  In these cases we leave the K field blank in the EDE
+      (set to NaN in the EOD).
+        In cases where planets' masses can be constrained dynamically,
+      or have upper limits due to a lack of RV signature, we supply
+      the MSINI field with the appropriate values and reference the
+      source of those numbers, instead of calculating MSINI from K.
+	<h3>References</h3> 
+	We have added references and URL fields for nearly every field
+      in the EOD;  all data in these fields are now uniquely
+      referenced.  The only fields without rigorous citations are
+      those containing coordinates, magnitudes, and rotation/activity measurements.
+        <h3>Asymmetric uncertainties</h3> 
+         We are updating asymmetric error bars throughout the database
+in all fields.
+<P> 
+<h1>Summary of Methodology:</h1> 
+The below text is subject to the updates above.
+<h2> 
+        Orbital parameters:
+        </h2> 
+        <p> 
+        We record the published fundamental observables of single-lined
+        spectroscopic binaries:  period, RV semiamplude, and eccentricity,
+        argument of periastron, and time of periastron passage.  In a few
+        cases of multiple planet systems, the best orbital parameters come
+        from dynamical fits, and in a small number of cases (e.g. GJ 876) planet-planet interactions
+        cause these elements to detectably evolve with time.  In those cases where
+        osculating elements for the planets are reported, we have recorded
+        those, and the epoch at which they are valid can be found in the
+        reference cited in ORBREF.  
+        </p> 
+        <p> 
+        Where uncertainties in orbital elements are not reported in the
+        literature, they remain undefined in our table.
+        </p> 
+        
+        <h2>m sin(i)</h2> 
+        <p>From the orbital parameters and the mass of the host star we calculate
+        the "minimum mass" of the planet from the mass function, as described
+        in Butler et al. 2006.  Note that we calculate this quantity
+        separately for each planet in a multiplanet system, as though it were
+        a singleton planet.  For simplicity and consistency, we always denote
+        this quantity "m sin(i)", though strictly speaking it is simply the
+        minimum value for the planet's mass as calculated from the mass
+        function.</p> 
+ 
+        <p>m sini will occasionally differ from the values listed in the paper
+        cited in ORBREF.  The most common reason for this is that we have
+        adopted a different stellar mass than that listed in ORBREF.  In other
+        cases, inclinations are known from transits, or constrained through
+        astrometry or dynamical considerations.  In a small number of cases m sin (i)
+        was misreported in the original paper.</p> 
+ 
+        <h2>a</h2> 
+        <p>We calculate orbital semimajor axes directly from Kepler's Third Law
+        in all cases.  In cases where it differs from literature values, the
+        usual culprit is that we have adopted a different stellar mass.</p> 
+        
+        <h2>Radial velocities and orbital fit</h2> 
+        <p>The orbital fit parameters refer to the fit in ORBREF and the listed
+        orbital parameters.  The corresponding RV curve is displayed in the
+        upper-left of each planet's minipage, which can be accessed by
+        clicking on a planet's name.  The radial velocities in this plot are
+        not necessarily those of the orbital reference, but are representative
+        velocities collected from NStED.  This feature is not fully supported
+        -- for many stars, including binaries, certain multiplanet systems,
+        and those for which no velocities are published or otherwise available
+        in NStED, no plot is shown.</p> 
+        
+        <h2>Parallaxes</h2> 
+        <p>We have adopted the van Leeuwen (2008) parallaxes (from a rereduction of the Hipparcos data)
+        for most stars.</p> 
+ 
+        <h2>Transiting planets</h2> 
+        <p>We have recorded the fundamental photometric transit parameters and
+        some derived quantities as they appear in the literature.  In some cases we
+        calculate time of periastron passage and the argument of periastron,
+        planetary density, planetary gravity, or the impact parameter where
+        those elements are not listed explicitly.</p> 
+        
+        <h2>Radius, density and gravity</h2> 
+        <p>Where available, we record the published radius, density, gravity for transiting
+        planets from TRANSITREF, and do not attempt to recompute them from the
+        transit parameters except where they are not otherwise available.
+        Therefore, these values may be inconsistent with
+        the mass derived from MSINI and the inclination because our MSINI
+        values may have been computed from different spectroscopic orbital
+        parameters or assuming a different stellar mass.</p> 
+        
+        <h2>Uncertainties</h2> 
+        <p>We have recorded literature uncertainties in stellar masses, but when
+        estimating uncertainties in msini and a we conservatively assume a
+        minimum uncertainty in stellar mass of 5%.  We do this to account for
+        likely systematic errors in model estimates of stellar masses (limits
+        in their accuracy) for most planet-bearing stars.</p> 
+        
+        <h2>FIRSTREF</h2> 
+        <p>The "first reference" field cites the first peer-reviewed
+        journal article to contain a orbital solution and/or radial
+        velocities documenting the existence of the planet.  In many cases
+        this does not correspond to the first public announcement of a
+        planet's existence, which may have been by press release, in
+        conference proceedings, or by reference in another paper.  A list of
+        planet discoveries, confirmations, and discovery claims is available
+        at <a href="http://obswww.unige.ch/~naef/who_discovered_that_planet.html">http://obswww.unige.ch/~naef/who_discovered_that_planet.html</a>.</p> 
+        
+        <h2>Magnitudes, Coordinates, and Misc.</h2> 
+        <p>JHK photometry is from the <a href="http://www.ipac.caltech.edu/2mass/releases/allsky/">2MASS point source catalog</a> (Skrutskie et
+        al. 2006).  In most cases
+        coordinates come from the van Leeuwen (2008) rereduction of the
+        Hipparcos data.  B and V magnitudes are heterogeneous, coming
+        variously from the Hipparcos catalog, SIMBAD, and other literature
+        sources, and so are not strictly all on the same scale.  Chromospheric
+        activity measurements are from various sources, usually planet
+        discovery papers plus references cited in Butler et al. (2006).
+        </p> 
+        
+        <div class="footnote"> 
+         This research has made use of the <a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD database</a>, operated at CDS,
+        Strasbourg, France, NASA's <a href="http://adsabs.harvard.edu/abs">Astrophysics Data System</a>, the <a href="http://exoplanet.eu">Exoplanets
+        Encyclopedia</a> maintained by Jean Schneider, and data products from
+        2MASS, which is a joint project of the University of Massachusetts and
+        IPAC/Caltech.  This research received generous funding from NASA and
+        the NSF.
+        </div> 
+    </div> 
+ 
+    
+    
+    <script src="./exoFrontend.js"></script> 
+</body> 
+</html>
