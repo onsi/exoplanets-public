@@ -1,0 +1,111 @@
+<html>
+
+<BODY BGCOLOR="cccccc" TEXT="#000000" VLINK="#3366ff" link="#ff0000">
+<head><LINK REL="STYLESHEET" HREF="/exoplanets.css" TYPE="text/css">
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (X11; U; SunOS 5.6 sun4u) [
+Netscape]">
+   <title>Multiple Planet systems</title>
+   
+</head>
+<body background="grey">
+
+
+<H1><center>
+Multiple Planet systems</center></h1>
+<p>
+
+
+<center>
+<TABLE BORDER=0 CELLPADDING=10 CELLSPACING=0 WIDTH=700 >
+    <tr><td>
+Several multiple planet systems have been identified. The first, 
+Upsilon Andromedae, is a triple planet system that was discovered by the 
+Lick and AFOE teams in 1999. This announcement has been followed by 
+the detection of several double planet systems.<BR>
+ 
+<P>Double-planet systems include:
+<DIV ALIGN=center>
+<TABLE>
+<TR><TD></TD><TD><LI><a href=http://exoplanets.org/esp/hd38529/hd38529.shtml>HD38529</a> (Lick and Keck)</TD></TR><TR><TD></TD><TD><LI><a href=http://exoplanets.org/esp/hd12661/hd12661.shtml>HD12661</a> (Lick and Keck)</TD></TR><TR><TD></TD><TD><LI><a href=http://exoplanets.org/esp/hd37124/hd37124.shtml>HD37124</a> (Keck Observatory)</TD></TR>
+<TR><TD></TD><TD><LI><a href=http://exoplanets.org/esp/hd168443b/hd168443b.shtml>HD168443</a> (Keck Observatory)</TD></TR>
+<!-- No second planet, apparently
+<TR><TD></TD><TD><LI><a href=http://obswww.unige.ch/~udry/planet/hd83443_syst.html>HD83443</a> (Geneva Team)</TD></TR>
+-->
+<TR><TD></TD><TD><LI><a href=http://exoplanets.org/esp/gj876b/gj876b.shtml>GJ876</a> (Lick and Keck)</TD></TR>
+<TR><TD></TD><TD><LI><a href=http://obswww.unige.ch/~udry/planet/hd82943syst.html>HD82943</a> (Geneva Team)</TD></TR>
+<TR><TD></TD><TD><LI><a href=http://obswww.unige.ch/~udry/planet/hd74156.html>HD74156.</a> (Geneva Team)</TD></TR>
+<TR><TD ALIGN=right VALIGN=top></TD><TD VALIGN=top><LI><a href=http://exoplanets.org/esp/47uma/47uma.shtml>47 UMa</a> (Lick Observatory)</TD></TR>
+</TABLE>
+</DIV>
+Triple-planet systems include:
+<DIV ALIGN=center>
+<TABLE>
+<TR><TD></TD><TD><LI><a href=http://exoplanets.org/esp/upsandb/upsandb.shtml>Upsilon Andromedae</a> (Lick Observatory, AFOE) 
+<TR><TD ALIGN=right VALIGN=top><IMG SRC=graphics/new ALT=New></TD><TD VALIGN=top><LI><a href=http://exoplanets.org/esp/55cnc/55cnc.shtml>55 Cnc</a> (Lick Observatory)</TD></TR>
+</TABLE>
+</DIV>
+The long time baseline of observations at Lick Observatory, coupled with high 
+precision, frequent observations make this sample ideal for an investigation 
+of the statistical rate of occurance of multiple planet systems.  
+<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2001ApJ...551.1107F&db_key=AST&high=38e3791fce00565>
+Fischer et al.</a> established a set of stars on the Lick planet search 
+project that met the following criteria: 
+<UL><UL>
+<LI>one known planet
+<LI>at least 2 years of observations
+</UL></UL>
+
+Twelve stars met these selection criteria.  The characteristics of these stars are listed 
+in the table below. After accounting for the velocity variation attributable to  
+the one known planet, we evaluated the residual velocities for evidence of a 
+second trend that could be consistent with Keplerian velocity variations. 
+<i><b><font color="0000ff"> The residual 
+velocity trends observed in at least half of these stars,  
+suggest that known planet-bearing stars appear to harbor 
+a distant detectable companion more often than other stars in our 
+planet survey.  </font></i></b>
+
+<P><BR><P>
+<table width=630 cellpadding=2 cellspacing=2 border=1><tr>
+<td>star</td><td>Mass (solar)</td><td>P (days) </td><td>Msini (Jup)</td><td>ecc</td>
+<td>[Fe/H]</td><td> log R'HK </td><td> residual trend?</td></tr><tr>
+
+<td>Tau Boo    </td><td>1.3 </td><td>3.3126</td><td>4.14</td><td>0.02</td><td> 0.32</td>
+<td> -4.75</td><td>yes</td></tr><tr>
+<td>51 Peg     </td><td>1.06</td><td> 4.231</td><td>0.46</td><td>0.01</td><td> 0.21</td>
+<td> -5.03</td><td>no </td></tr><tr>
+<td>Ups And b  </td><td>1.3 </td><td> 4.617</td><td>0.68</td><td>0.02</td><td> 0.12</td>
+<td> -4.84</td><td>2 more</td></tr><tr>
+<td>HD 217107  </td><td>0.98</td><td> 7.128</td><td>1.29</td><td>0.14</td><td> 0.30</td>
+<td> -5.09</td><td>yes</td></tr><tr>
+<td>55 Cnc     </td><td>1.03</td><td>14.656</td><td>0.93</td><td>0.03</td><td> 0.45</td>
+<td> -4.91</td><td>2 more</td></tr><tr>
+<td>HD 38529   </td><td>1.4 </td><td>14.31 </td><td>0.76</td><td>0.27</td><td> 0.29</td>
+<td> -4.89</td><td>yes</td></tr><tr>
+<td>HD 195019  </td><td>1.02</td><td>18.21 </td><td>3.56</td><td>0.01</td><td> 0.00</td>
+<td> -4.90</td><td>no </td></tr><tr>
+<td>Rho Cr B   </td><td>0.95</td><td>39.81 </td><td>0.99</td><td>0.07</td><td>-0.29</td>
+<td> -5.02</td><td>no </td></tr><tr>
+<td>GJ 876     </td><td>0.32</td><td>60.0  </td><td>2.18</td><td>0.25</td><td> N/A </td>
+<td>  N/A </td><td>yes</td></tr><tr> 
+<td>70 Vir     </td><td>1.10</td><td>116.7 </td><td>7.42</td><td>0.40</td><td>-0.03</td>
+<td> -5.06</td><td>no </td></tr><tr>
+<td>16 CygB    </td><td>1.02</td><td>796.7 </td><td>1.68</td><td>0.68</td><td>0.09 </td>
+<td> -4.98</td><td>no </td></tr><tr>
+<td>47 UMa     </td><td>1.03</td><td>1097.0</td><td>2.63</td><td>0.12</td><td>-0.08</td>
+<td>-4.99 </td><td>yes </td></tr>
+</table>
+
+</td></tr></table>
+</center>
+
+<HR>
+<DIV ALIGN=right><FONT SIZE = 2><EM>Most recently updated
+	on 20 April 2003</EM></FONT></DIV><P>
+<HR>
+
+<DIV ALIGN=left><a href=http://exoplanets.org/science.html TARGET=_top> <FONT SIZE=4><b>Return to the Planet 
+Search Page</B></FONT></A></DIV>
+</BODY>
+</HTML>

@@ -1,0 +1,151 @@
+<html>
+<head><LINK REL="STYLESHEET" HREF="/exoplanets.css" TYPE="text/css">
+<title>Planets Around HD168443 </title>
+
+</head>
+<body text=#FFFFFF bgcolor=#004669 link=#FFFF00 vlink=#99FFCC alink=#FFFF00>
+<DIV ALIGN=center><h1>
+<font color="#FFFFCC">Two Unusually Massive Companions Orbiting HD168443</font></h2>
+<em>Revised 10 May 2003</em>
+<p><br>
+<img SRC=../gifs/hd168443.gif align=CENTER>
+<p><b><font color=#FFFF99><font size=5>Velocity versus Time for HD168443 (points), <br>
+fit with two companions (solid line)<BR>
+The outer companion has mass 17-40 Mjup.<br>
+(Data from Keck Observatory)
+</font></b>
+<BR>
+<BR>
+<EM>Data provided by <A HREF=http://exoplanets.org/team.html>California &amp; Carnegie Planet Search Team</A> </EM>
+<BR>
+<BR>
+<font color=#FFFFFF>
+
+<A HREF="ell_hd168443"><IMG SRC="ell_hd168443" ALIGN=middle></A>
+<br>
+<h3>
+<b>Sketch of the Orbits.</b></A><br>
+</h3>
+
+<br>
+<p>
+<b>Refereed paper
+<A HREF=ms.ps>
+<EM>Astrophys. J.</EM>, vol 555, Jul 1, 2001</b></A><br>
+<A HREF=fig1.ps>
+<b>Fig1.ps.</b></A><br>
+<A HREF=fig2.ps>
+<b>Fig2.ps.</b></A><br>
+<A HREF=fig3.ps>
+<b>Fig3.ps.</b></A><br>
+<A HREF=fig4.ps>
+<b>Fig4.ps.</b></A><br>
+<A HREF=fig5.ps>
+<b>Fig5.ps.</b></A><br>
+<A HREF=fig6.ps>
+<b>Fig6.ps.</b></A><br>
+<br>
+<A HREF=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1999ApJ...520..239M&db_key=AST&high=37f218e95e29832>
+<b>Marcy et al. 1999 ApJ V 520, p239</b></A>
+
+<br>
+<p><P><P>
+
+</DIV>
+
+<HR>
+<P><P>
+<h2>
+<b><font color=#FFFF99><font size=4>Orbital Parameters and Planet Mass
+</font></font></b></h2>
+</font></b></h2></center>
+<table BORDER WIDTH=100%>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Planet</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Period <BR></font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>T_peri <BR>(JD)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>ecc</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>omega <BR>(deg)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Velocity Amp, K<BR> (m/s) </font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Msini <BR>(M_jup)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>a <BR>(AU)</font></b></td>
+<td </TR><font color=#FFFFFF></font></td>
+</tr>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>hd168443b</font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>  58.10 day </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>2450047.6 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>0.53 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 172.9 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>472.7 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 7.73 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>0.295 </font></b></td>
+</tr>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>hd168443c</font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 4.85 yr </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>2450250 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>0.20 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 63 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>289 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 17.2 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>2.87 </font></b></td>
+</tr>
+</table>
+<table BORDER=0 WIDTH=100%>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>RMS: 
+ 4.2 m/s
+</td></tr>
+<tr><td ALIGN=LEFT><b><font color=#FFFFFF>chi-squared: 
+ 1.6
+</td></tr>
+</table>
+<p><P><P>
+<HR>
+<P><P>
+<center>
+<h2>
+<b><font color=#FFFF99><font size=4>Stellar Characteristics
+</font></font></b></h2></center>
+<table BORDER WIDTH=100%>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Spectral Type</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Mass <BR>(M_sun)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Apparent <BR>magnitude</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Distance <BR>(pc)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>P_rot <BR>(d)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>[Fe/H]</font></b></td>
+<td </TR><font color=#FFFFFF></font></td></tr>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>G5 IV</font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>1.01 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>6.91 </font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF> 38.5
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 36.76 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF>  +0.03 </font></b></td>
+</tr>
+</table>
+</center>
+<br><b><font color=#FFFFFF></font></b>&nbsp;<font
+color="#FFFFFF"></font> <p><b><a
+href=http://obswww.unige.ch/~udry/planet/hd168443_syst.html> Udry et
+al. combine our velocities (shown as green points) from Marcy et al. 1999
+with additional velocities, and they find similar orbital
+parameters.</a></b>
+
+<br>
+<h3>
+<b><font color=#FFFFFF>
+Artwork of these planets by <A HREF=http://extrasolar.spaceart.org/>Lynette Cook</A> is available from
+Science Photo Library.  Contact Seymour Yang, Science Photo Library,
+327-329 Harrow Road, London W9 3RB England.  WEB: <A HREF=http://www.sciencephoto.com>http://www.sciencephoto.com</A> ;
+email: <A HREF=mailto:seymour@sciencephoto.co.uk>seymour@sciencephoto.co.uk</A>  .
+</b></font>
+</h3>
+
+<br><b><font color=#FFFFFF></font></b>&nbsp;<font color="#FFFFFF"></font>
+<p><b><a href=../../index.html>
+Return to planet-search home page...</a></b>
+</body>
+</html>

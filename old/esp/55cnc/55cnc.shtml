@@ -1,0 +1,201 @@
+<HTML>
+<HEAD>
+   <LINK REL="STYLESHEET" HREF="http://exoplanets.org/exoplanets.css" TYPE="text/css">
+   <STYLE TYPE=text/css>
+		TABLE { color: white }
+		H1    { color: #FFC }
+		H2    { color: #FFC }
+		BODY  { background-color: #000 }
+		EM    { font-style: italic }
+   </STYLE>
+   <TITLE>
+	The Lick Observatory Planet Search -
+	A Triple-Planet system around 55 Cancri
+   </TITLE>
+   
+</HEAD>
+
+
+
+<BODY STYLE="width: 100%; background: black url(http://exoplanets.org/esp/55cnc/55CANCRISM.jpg) no-repeat" TEXT="#FFFFFF" LINK="#FFFF00" VLINK="#99FFCC" ALINK="#FFFF00">
+<H1 STYLE="color: yellow; width: 720px; padding-bottom: 300px">A Triple-Planet System Orbiting 55&nbsp;Cancri</H1>
+<!--
+ Marcy et al. 2002, <SPAN STYLE="font-style: italic">ApJ</SPAN> accepted:
+<UL>
+<LI><A HREF=http://exoplanets.org/papers/55cnc.ps>Postscript</A></LI>
+<LI><A HREF=http://exoplanets.org/papers/55cnc.pdf>Acrobat</A></LI>
+-->
+
+<A HREF=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002ApJ...581.1375M&db_key=AST&high=3eadc56af501620>Marcy et al. 2002, ApJ 581, 1375</A>
+</UL>
+
+<P STYLE="width: 720px"><EM>Above:</EM>
+Artist's conception by Lynette Cook, showing
+the star 55&nbsp;Cnc in the distance
+with the innermost two planets visible as tiny
+points.  In the foreground is a hypothetical moon
+orbiting the large outer planet.
+From Earth, this planetary system is 70,000
+times more distant than Pluto.
+<HR>
+</P><p>
+<center>Revised 25 June 2002<center>
+<br>
+<IMG SRC=../gifs/hr3522b ALIGN=top>
+<BR><BR>
+<IMG SRC=../gifs/hr3522c>
+<BR><BR>
+<IMG SRC=../gifs/hr3522d>
+<BR><BR>
+<DIV ALIGN=center>
+<H2><B><FONT SIZE=4>Orbital Parameters and Planet Mass<BR>
+Lick Observatory
+</FONT></B></H2>
+<EM>Data provided by <A HREF=http://exoplanets.org/team.html>California &amp; Carnegie Planet Search Team</A> </EM><p>
+        <!-- http://exoplanets.org/esp/params/ -->
+        <TABLE BORDER>
+<CAPTION>
+  Latest Orbital Parameters
+</CAPTION>
+<THEAD>
+<TR>
+  <TH>Planet</TH>
+  <TH>Period</TH>
+  <TH>T<SUB>peri</SUB> (JD-2450000)</TH>
+  <TH>ecc</TH>
+  <TH>omega (deg)</TH>
+  <TH>Vel Amp, K (m/s)</TH>
+  <TH>M sin <EM>i</EM> (M<SUB>jup</SUB>)</TH>
+  <TH>a (AU)</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR ALIGN=center>
+  <TD>b</TD>
+  <TD>14.653 d</TD>
+  <TD>1.479</TD>
+  <TD>.02</TD>
+  <TD>99</TD>
+  <TD>72.2</TD>
+  <TD>0.84</TD>
+  <TD>0.115</TD>
+</TR>
+
+<TR ALIGN=center>
+  <TD>c</TD>
+  <TD>44.28 d</TD>
+  <TD>31.4</TD>
+  <TD>.34</TD>
+  <TD>61</TD>
+  <TD>13.0</TD>
+  <TD>0.21</TD>
+  <TD>0.24</TD>
+</TR>
+
+<TR ALIGN=center>
+  <TD>d</TD>
+  <TD>5360 d</TD>
+  <TD>2785</TD>
+  <TD>.16</TD>
+  <TD>201</TD>
+  <TD>49.3</TD>
+  <TD>4.05</TD>
+  <TD>5.9</TD>
+</TR>
+
+</TBODY>
+</table>
+
+	</DIV>
+
+<P STYLE="font-weight: bold; text-align: left; padding-left: 20%; padding-right: 20%">The inner planet was announced by Butler et
+al. in January 1997.
+Analysis of extended velocity measurements
+reveals additional velocity variations.</P>
+
+<HR>
+<H1>PREVIOUS KEPLERIAN FITS</H1>
+<TABLE WIDTH=100%>
+  <TR>
+    <TD ALIGN=right>
+	  <H2>Two-Planet Fit:</H2>
+	  A Two-Keplerian model (solid line) is fit to the measured velocities.
+	  Here the velocity wobble caused by the outer planet has been
+	  removed for clarity,
+	  leaving the wobble caused by the inner planet.
+	  These residual velocities (dots) are phased at the 14.65-d period
+	  of the inner planet, showing the significant reduction in the
+	  residuals compared with the one-planet model. By including a
+	  second planet in the model, the RMS of the residuals dropped
+	  from 39.5 m/s to 11.6 m/s.
+    </TD>
+    <TD>
+	  <IMG SRC=http://exoplanets.org/esp/55cnc/two_planet_rem_outer>
+    </TD>
+  </TR>
+  <TR>
+    <TD ALIGN=right>
+	  <H2>One-Planet Fit:</H2>
+	  Velocities for 55&nbsp;Cancri, phased at the best-fit period of 14.65 d.
+	  The dashed line represents the best-fit (single-planet) keplerian.
+	  The RMS of 38 m/s is well above the typical velocity
+	  errors of 3-10 m/s, showing the inadequacy of a single-planet model.
+    </TD>
+    <TD>
+	  <IMG SRC=http://exoplanets.org/esp/55cnc/oneplanet>
+    </TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=2><EM>Note: Assumes M<SUB>star</SUB>=0.95.
+           The outer planet is 0.5 arcsec
+	   from the star, making it the best extrasolar planet
+	   for direct imaging by a coronograph.</EM></TD>
+  </TR>
+</TABLE>
+
+<DIV ALIGN=center>
+<TABLE BORDER>
+<CAPTION>Stellar Characteristics</CAPTION>
+<THEAD>
+<TR>
+<TH>Spectral Type</TH>
+<TH>Mass (M<SUB>Sun</SUB>)</TH>
+<TH>Apparent magnitude</TH>
+<TH>Distance (pc)</TH>
+<TH>P<SUB>rot</SUB>(d)</TH>
+<TH>[Fe/H]</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR ALIGN=center>
+<TD>G8V</TD> <!-- Spectral type here -->
+<TD>0.95</TD> <!-- Stellar mass here -->
+<TD>5.95</TD> <!-- Apparent magnitude here -->
+<TD>12.53</TD> <!-- Distance (pc) here -->
+<TD>35-42</TD> <!-- Rotation period (d) here -->
+<TD>0.27</TD> <!-- Metallicity here -->
+</TR>
+</TBODY>
+</TABLE>
+</DIV>
+<!-- 
+<TABLE WIDTH=100%>
+<TR VALIGN=top>
+<TD>
+<IMG SRC=http://exoplanets.org/esp/55cnc/stable_stars>
+</TD>
+<TD>
+<H2>Comparison Stars</H2>
+Left, Doppler shift measurements for three different
+GK dwarfs observed from 1989 to present taken with the same
+instrumental setup and the Lick telescopes.  These stars demonstrate
+Doppler precision and long--term stability at a level of
+10 m/s.<BR>
+</TD>
+</TR>
+</TABLE>
+ -->
+<P><B><A HREF=http://exoplanets.org>Return
+to planet search home page...</A></B>
+</BODY>
+</HTML>

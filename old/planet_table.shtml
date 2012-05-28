@@ -1,0 +1,2009 @@
+<HTML>
+<HEAD>
+  <TITLE>
+    California &amp; Carnegie Planet Search - Known Extrasolar Planets
+  </TITLE> <P>
+  
+  <script language="JavaScript">
+  <!--
+  var newWindow = null
+  function OpenRefsWindow(newURL) {
+  newWindow = window.open(newURL,'refs','toolbar=no,width=400,height=200,left=100,top=100,screenX=550,screenY=100,status=no,scrollbars=yes,resizable=yes');
+  if (newWindow !=null) newWindow.focus();
+  }
+  //-->
+ </script>
+</HEAD>
+<BODY STYLE="background-color: #CC9">
+<A HREF="http://www.ciw.edu/boss/IAU/div3/wgesp/planets.shtml">
+<h4>International Astronomical Union Subset:<br> Extrasolar Planets Published<br>
+</h4></A>
+
+<DIV ALIGN=center><FONT SIZE=6><B>
+Masses and Orbital Characteristics of Extrasolar Planets</B></FONT><BR>
+<FONT SIZE=3><B>using stellar masses derived from Hipparcos, metalicity, and stellar evolution<P>
+<br>
+<A HREF=http://exoplanets.org/planet_table.txt>
+Text Version (with coordinates)</A>
+<br>
+<br>
+
+Most recently updated on 03 January 2006</B></FONT></DIV>
+<P>
+
+
+<!A HREF="http://www.ciw.edu/IAU/div3/wgesp/">
+<!center>
+<!img src="/IAU_logo_small.gif" align=middle></a>
+
+
+</center>
+<p>
+<DIV ALIGN=center>
+<TABLE><TR VALIGN=bottom BGCOLOR=yellow><TD ALIGN=left><B>  </B></TD><TD
+ALIGN=left><B><h2>Star Name</h2></B></TD><TD
+ALIGN=center><B><h2>M sin <EM>i&nbsp;</EM><br>(M<SUB>jup</SUB>&nbsp;)</h2></B></TD><TD
+ALIGN=center><B><h2>Period<br>(d)</h2></B></TD><TD
+ALIGN=center><B><h2>Semimajor<br>Axis (AU)</h2></B></TD><TD
+ALIGN=center><B><h2>Eccen-<BR>tricity</h2></B> </TD><TD
+ALIGN=center><B><h2>K<br>(m/s)</h2></B> </TD>
+<TD>
+<!-- Publication(s) -->
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>0</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd73256.html>HD73256</A></B></TD><TD
+ALIGN=left><B>   1.85</B></TD><TD
+ALIGN=left><B>   2.548 </B></TD><TD
+ALIGN=left><B>   0.037 </B></TD><TD
+ALIGN=right><B>  0.038</B></TD><TD
+ALIGN=right><B>  267   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="http://fr.arxiv.org/abs/astro-ph/0304248">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>1</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd83443/hd83443.shtml>HD83443</A></B></TD><TD
+ALIGN=left><B>   0.41</B></TD><TD
+ALIGN=left><B>   2.985 </B></TD><TD
+ALIGN=left><B>   0.04 </B></TD><TD
+ALIGN=right><B>  0.05</B></TD><TD
+ALIGN=right><B>  58.05   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd83443/hd83443_ref.shtml');">References</a>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>2</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd46375/hd46375.shtml>HD46375</A></B></TD><TD
+ALIGN=left><B>   0.25</B></TD><TD
+ALIGN=left><B>   3.024 </B></TD><TD
+ALIGN=left><B>   0.04 </B></TD><TD
+ALIGN=right><B>  0.04</B></TD><TD
+ALIGN=right><B>  34.5   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd46375/hd46375_ref.shtml');">References</a>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>3</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd179949/hd179949.shtml>HD179949</A></B></TD><TD
+ALIGN=left><B>   0.98</B></TD><TD
+ALIGN=left><B>   3.093 </B></TD><TD
+ALIGN=left><B>   0.04 </B></TD><TD
+ALIGN=right><B>  0.00</B></TD><TD
+ALIGN=right><B> 117.96   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd179949/hd179949_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>4</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd187123/hd187123.shtml>HD187123b</A></B></TD><TD
+ALIGN=left><B>   0.51</B></TD><TD
+ALIGN=left><B>   3.097 </B></TD><TD
+ALIGN=left><B>   0.04 </B></TD><TD
+ALIGN=right><B>  0.02</B></TD><TD
+ALIGN=right><B>  67.96   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd187123/hd187123_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>5</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/tauboo/tauboo.shtml>HD120136 (Tau Boo)</A></B></TD><TD
+ALIGN=left><B>   4.13</B></TD><TD
+ALIGN=left><B>   3.312 </B></TD><TD
+ALIGN=left><B>   0.05 </B></TD><TD
+ALIGN=right><B>  0.01</B></TD><TD
+ALIGN=right><B> 471.35  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/tauboo/tauboo_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>6</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd330075.html>HD330075</A></B></TD><TD
+ALIGN=left><B>  0.84 </B></TD><TD
+ALIGN=left><B>   3.380 </B></TD><TD
+ALIGN=left><B>   0.046</B></TD><TD
+ALIGN=right><B>  0.00</B></TD><TD
+ALIGN=right><B> 106.80  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd330075/hd330075_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>7</B></TD><TD
+ALIGN=left><B> HD88133</B></TD><TD
+ALIGN=left><B>   0.22</B></TD><TD
+ALIGN=left><B>   3.410 </B></TD><TD
+ALIGN=left><B>  0.047 </B></TD><TD
+ALIGN=right><B>  0.00</B></TD><TD
+ALIGN=right><B>  26.00  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd88133/hd88133_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>8</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/bd-103166/bd-103166.shtml>BD-103166</A></B></TD><TD
+ALIGN=left><B>   0.48</B></TD><TD
+ALIGN=left><B>   3.488 </B></TD><TD
+ALIGN=left><B>   0.05 </B></TD><TD
+ALIGN=right><B>  0.07</B></TD><TD
+ALIGN=right><B>  59.89  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/bd-103166/bd-103166_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>9</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd75289/hd75289.shtml>HD75289</A></B></TD><TD
+ALIGN=left><B>   0.44</B></TD><TD
+ALIGN=left><B>   3.509 </B></TD><TD
+ALIGN=left><B>   0.05 </B></TD><TD
+ALIGN=right><B>  0.01</B></TD><TD
+ALIGN=right><B>  53.52  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd75289/hd75289_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>10</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd209458/hd209458.shtml>HD209458</A></B></TD><TD
+ALIGN=left><B>   0.67</B></TD><TD
+ALIGN=left><B>   3.525 </B></TD><TD
+ALIGN=left><B>   0.05 </B></TD><TD
+ALIGN=right><B>  0.11 </B></TD><TD
+ALIGN=right><B>  86.52  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd209458/hd209458_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>11</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd76700/hd76700.shtml>HD76700</A></B></TD><TD
+ALIGN=left><B>   0.19</B></TD><TD
+ALIGN=left><B>   3.971</B></TD><TD
+ALIGN=left><B>   0.05</B></TD><TD
+ALIGN=right><B>  0.13</B></TD><TD
+ALIGN=right><B>  25.05</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd76700/hd76700_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>12</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/51peg/51peg.shtml>HD217014 (51 Peg)</A></B></TD><TD
+ALIGN=left><B>   0.46</B></TD><TD
+ALIGN=left><B>   4.231 </B></TD><TD
+ALIGN=left><B>   0.05 </B></TD><TD
+ALIGN=right><B>  0.01</B></TD><TD
+ALIGN=right><B>  54.99  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/51peg/51peg_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>13</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/upsandb/upsandb.shtml>HD9826b (Ups And b)</A></B></TD><TD
+ALIGN=left><B>   0.69</B></TD><TD
+ALIGN=left><B>   4.6171</B></TD><TD
+ALIGN=left><B>   0.059 </B></TD><TD
+ALIGN=right><B>  0.012</B></TD><TD
+ALIGN=right><B>  70.2   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/upsandb/upsandb_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>14</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd49674/hd49674.shtml>HD49674</A></B></TD><TD
+ALIGN=left><B>   0.11</B></TD><TD
+ALIGN=left><B>   4.950 </B></TD><TD
+ALIGN=left><B>   0.06 </B></TD><TD
+ALIGN=right><B>  0.17</B></TD><TD
+ALIGN=right><B>  13.14  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd49674/hd49674_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>15</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd68988/hd68988.shtml>HD68988</A></B></TD><TD
+ALIGN=left><B>   1.92</B></TD><TD
+ALIGN=left><B>   6.276 </B></TD><TD
+ALIGN=left><B>   0.07 </B></TD><TD
+ALIGN=right><B>  0.15</B></TD><TD
+ALIGN=right><B> 189.74  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd68988/hd68988_ref.shtml');">References</A>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>16</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd168746.html>HD168746</A></B></TD><TD
+ALIGN=left><B>   0.23</B></TD><TD
+ALIGN=left><B>   6.403 </B></TD><TD
+ALIGN=left><B>   0.065 </B></TD><TD
+ALIGN=right><B>  0.081</B></TD><TD
+ALIGN=right><B>  27.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd168746/hd168746_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>17</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd217107/hd217107.shtml>HD217107</A></B></TD><TD
+ALIGN=left><B>   1.30</B></TD><TD
+ALIGN=left><B>   7.126 </B></TD><TD
+ALIGN=left><B>   0.07 </B></TD><TD
+ALIGN=right><B>  0.14</B></TD><TD
+ALIGN=right><B> 140.23  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd217107/hd217107_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>18</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd162020.html>HD162020</A></B></TD><TD
+ALIGN=left><B>  14.4</B></TD><TD
+ALIGN=left><B>   8.4281</B></TD><TD
+ALIGN=left><B>   0.074 </B></TD><TD
+ALIGN=right><B>  0.277</B></TD><TD
+ALIGN=right><B>1813.0   </B></TD>
+<TD>
+<!-- Publication(s) -->  
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd162020/hd162020_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>19</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd130322.html>HD130322</A></B></TD><TD
+ALIGN=left><B>   1.02</B></TD><TD
+ALIGN=left><B>   10.72 </B></TD><TD
+ALIGN=left><B>   0.088 </B></TD><TD
+ALIGN=right><B>  0.044</B></TD><TD
+ALIGN=right><B> 115.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd130322/hd130322_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>20</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd108147.html>HD108147</A></B></TD><TD
+ALIGN=left><B>   0.31</B></TD><TD
+ALIGN=left><B>   10.890  </B></TD><TD
+ALIGN=left><B>   0.102 </B></TD><TD
+ALIGN=right><B>  0.400</B></TD><TD
+ALIGN=right><B>  27.3   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd108147/hd108147_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>21</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/hd38529/hd38529.shtml>HD38529b</A></B></TD><TD
+ALIGN=left><B>   0.78</B></TD><TD
+ALIGN=left><B>   14.31 </B></TD><TD
+ALIGN=left><B>   0.129 </B></TD><TD
+ALIGN=right><B>  0.28</B></TD><TD
+ALIGN=right><B>  54.7   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd38529/hd38529_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>22</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/55cnc/55cnc.shtml>HD75732b (55 Cnc b)</A></B></TD><TD
+ALIGN=left><B>   0.84</B></TD><TD
+ALIGN=left><B>   14.653 </B></TD><TD
+ALIGN=left><B>   0.115 </B></TD><TD
+ALIGN=right><B>  0.02</B></TD><TD
+ALIGN=right><B>  72.2   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/55cnc/55cnc_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>23</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/gj86/gj86.shtml>HD13445 (GJ 86)</A></B></TD><TD
+ALIGN=left><B>   4.01</B></TD><TD
+ALIGN=left><B>   15.766 </B></TD><TD
+ALIGN=left><B>   0.11 </B></TD><TD
+ALIGN=right><B>  0.04</B></TD><TD
+ALIGN=right><B> 375.88  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/gj86/gj86_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>24</B></TD><TD
+ALIGN=left><B> HD99492</B></TD><TD
+ALIGN=left><B>  0.12 </B></TD><TD
+ALIGN=left><B>  17.0    </B></TD><TD
+ALIGN=left><B>  0.124 </B></TD><TD
+ALIGN=right><B> 0.05 </B></TD><TD
+ALIGN=right><B>  10.4   </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>25</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd195019/hd195019.shtml>HD195019</A></B></TD><TD
+ALIGN=left><B>   3.57</B></TD><TD
+ALIGN=left><B>   18.203 </B></TD><TD
+ALIGN=left><B>   0.14 </B></TD><TD
+ALIGN=right><B>  0.02</B></TD><TD
+ALIGN=right><B> 271.38  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd195019/hd195019_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>26</B></TD><TD
+ALIGN=left><B> HD102117</B></TD><TD
+ALIGN=left><B>  0.19 </B></TD><TD
+ALIGN=left><B>  20.800 </B></TD><TD
+ALIGN=left><B>  0.154 </B></TD><TD
+ALIGN=right><B>  0.05</B></TD><TD
+ALIGN=right><B>  12.90  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd102117/hd102117_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>27</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd6434.html>HD6434</A></B></TD><TD
+ALIGN=left><B>   0.48</B></TD><TD
+ALIGN=left><B>   22.09 </B></TD><TD
+ALIGN=left><B>   0.15 </B></TD><TD
+ALIGN=right><B>  0.30</B></TD><TD
+ALIGN=right><B>  37.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>28</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd192263/hd192263.shtml>HD192263</A></B></TD><TD
+ALIGN=left><B>   0.75 </B></TD><TD
+ALIGN=left><B>   24.33 </B></TD><TD 
+ALIGN=left><B>  0.15   </B></TD><TD
+ALIGN=right><B>  0.03   </B></TD><TD
+ALIGN=right><B>  50.5   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd192263/hd192263_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=left></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/hd83443/hd83443.shtml>HD83443c</A></B></TD><TD
+ALIGN=left><B>   Not a Planet</B></TD><TD
+ALIGN=left><B>   29.83 </B></TD><TD COLSPAN=2
+ALIGN=center><B>Not a Planet</B></TD><TD
+ALIGN=right><B>  14.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd83443/hd83443_ref.shtml');">References</a>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>29</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/gj876c/gj876c.shtml>GJ876c</A></B></TD><TD
+ALIGN=left><B>   0.56</B></TD><TD
+ALIGN=left><B>   30.12 </B></TD><TD
+ALIGN=left><B>   0.13 </B></TD><TD
+ALIGN=right><B>  0.27</B></TD><TD
+ALIGN=right><B>  81.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/gj876c/gj876c_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>30</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd37124/hd37124.shtml>HD37124b </A></B></TD><TD
+ALIGN=left><B>  0.25 </B></TD><TD
+ALIGN=left><B>  31.000 </B></TD><TD
+ALIGN=left><B>   0.181</B></TD><TD
+ALIGN=right><B>  0.34</B></TD><TD
+ALIGN=right><B>  19.60  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd37124/hd37124_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>31</B></TD><TD
+ALIGN=left><B> HD11964c </B></TD><TD
+ALIGN=left><B>  Not </B></TD><TD
+ALIGN=left><B>  Confirmed </B></TD><TD
+ALIGN=left><B>   </B></TD><TD
+ALIGN=right><B>  </B></TD><TD
+ALIGN=right><B>   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd11964/hd11964_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>32</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/rhocrb/rhocrb.shtml>HD143761 (Rho Crb)</A></B></TD><TD
+ALIGN=left><B>   1.04</B></TD><TD
+ALIGN=left><B>   39.845</B></TD><TD
+ALIGN=left><B>   0.22 </B></TD><TD
+ALIGN=right><B>  0.04</B></TD><TD
+ALIGN=right><B>  64.24   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/rhocrb/rhocrb_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>33</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/55cnc/55cnc.shtml>HD75732c (55 Cnc c)</A></B></TD><TD
+ALIGN=left><B>   0.21</B></TD><TD
+ALIGN=left><B>   44.28 </B></TD><TD
+ALIGN=left><B>   0.24 </B></TD><TD
+ALIGN=right><B>  0.34</B></TD><TD
+ALIGN=right><B>  13.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/55cnc/55cnc_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>34</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd74156.html>HD74156b</A></B></TD><TD
+ALIGN=left><B>   1.61</B></TD><TD
+ALIGN=left><B>   51.522 </B></TD><TD
+ALIGN=left><B>   0.28 </B></TD><TD
+ALIGN=right><B>  0.647</B></TD><TD
+ALIGN=right><B> 112.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...414..351N&db_key=AST&high=3fa91d99dd26969');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>35</B></TD><TD
+ALIGN=left><B> HD117618 </B></TD><TD
+ALIGN=left><B>  0.22 </B></TD><TD
+ALIGN=left><B>  52.000 </B></TD><TD
+ALIGN=left><B>   0.280</B></TD><TD
+ALIGN=right><B>  0.25</B></TD><TD
+ALIGN=right><B>  11.80  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd117618/hd117618_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>36</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd168443b/hd168443b.shtml>HD168443b</A></B></TD><TD
+ALIGN=left><B>   7.73</B></TD><TD
+ALIGN=left><B>   58.10 </B></TD><TD
+ALIGN=left><B>   0.295 </B></TD><TD
+ALIGN=right><B>  0.53</B></TD><TD
+ALIGN=right><B> 472.7   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd168443b/hd168443b_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>37</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/gj876b/gj876b.shtml>GJ876b</A></B></TD><TD
+ALIGN=left><B>   1.89</B></TD><TD
+ALIGN=left><B>   61.02 </B></TD><TD
+ALIGN=left><B>   0.21 </B></TD><TD
+ALIGN=right><B>  0.10</B></TD><TD
+ALIGN=right><B> 210.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/gj876b/gj876b_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>38</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd3651/hd3651.shtml>HD3651</A></B></TD><TD
+ALIGN=left><B>   0.20</B></TD><TD
+ALIGN=left><B>   62.23 </B></TD><TD
+ALIGN=left><B>   0.284 </B></TD><TD
+ALIGN=right><B>  0.63</B></TD><TD
+ALIGN=right><B> 15.9   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd3651/hd3651_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>39</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd121504.html>HD121504</A></B></TD><TD
+ALIGN=left><B>   0.89</B></TD><TD
+ALIGN=left><B>   64.6 </B></TD><TD
+ALIGN=left><B>   0.32 </B></TD><TD
+ALIGN=right><B>  0.13</B></TD><TD
+ALIGN=right><B>  45.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>40</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/~udry/planet/hd178911B.html>HD178911 </A></B></TD><TD
+ALIGN=left><B>   6.46</B></TD><TD
+ALIGN=left><B>   71.50 </B></TD><TD
+ALIGN=left><B>   0.326 </B></TD><TD
+ALIGN=right><B>  0.14</B></TD><TD
+ALIGN=right><B> 343.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd178911/hd178911_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>41</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd16141/hd16141.shtml>HD16141</A></B></TD><TD
+ALIGN=left><B>   0.23</B></TD><TD
+ALIGN=left><B>   75.560 </B></TD><TD
+ALIGN=left><B>   0.35 </B></TD><TD
+ALIGN=right><B>  0.21</B></TD><TD
+ALIGN=right><B>  11.25  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd16141/hd16141_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>42</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd114762/hd114762.shtml>HD114762</A></B></TD><TD
+ALIGN=left><B>  11.03</B></TD><TD
+ALIGN=left><B>   83.895</B></TD><TD
+ALIGN=left><B>   0.35 </B></TD><TD
+ALIGN=right><B>  0.34</B></TD><TD
+ALIGN=right><B> 616.66  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd114762/hd114762_ref.shtml');">References</A>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>43</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd80606.html>HD80606</A></B></TD><TD
+ALIGN=left><B>   3.90</B></TD><TD
+ALIGN=left><B>   111.81</B></TD><TD
+ALIGN=left><B>   0.469 </B></TD><TD
+ALIGN=right><B>  0.927</B></TD><TD
+ALIGN=right><B> 411.0   </B></TD>
+<TD>
+<!-- Publication(s) -->  
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd80606/hd80606_ref.shtml');">References</A>
+
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>44</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/70vir/70vir.shtml>HD117176 (70 Vir)</A></B></TD><TD
+ALIGN=left><B>   7.44</B></TD><TD
+ALIGN=left><B>   116.689</B></TD><TD
+ALIGN=left><B>   0.48 </B></TD><TD
+ALIGN=right><B>  0.40</B></TD><TD
+ALIGN=right><B> 315.22</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/70vir/70vir_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>45</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd216770.html>HD216770</A></B></TD><TD
+ALIGN=left><B>   0.70</B></TD><TD
+ALIGN=left><B>   118.0</B></TD><TD
+ALIGN=left><B>   0.46 </B></TD><TD
+ALIGN=right><B>  0.32</B></TD><TD
+ALIGN=right><B> 33.0</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>46</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd52265/hd52265.shtml>HD52265</A></B></TD><TD
+ALIGN=left><B>   1.00</B></TD><TD
+ALIGN=left><B>   119.10</B></TD><TD
+ALIGN=left><B>   0.49 </B></TD><TD
+ALIGN=right><B>  0.19</B></TD><TD
+ALIGN=right><B>  38.75  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd52265/hd52265_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>47</B></TD><TD
+ALIGN=left><B> HD34445</B></TD><TD
+ALIGN=left><B> 0.58  </B></TD><TD
+ALIGN=left><B> 126.0   </B></TD><TD
+ALIGN=left><B> 0.51   </B></TD><TD
+ALIGN=right><B> 0.4  </B></TD><TD
+ALIGN=right><B> 24.0    </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>48</B></TD><TD
+ALIGN=left><B> HD208487</B></TD><TD
+ALIGN=left><B> 0.43  </B></TD><TD
+ALIGN=left><B> 129.10 </B></TD><TD
+ALIGN=left><B> 0.521  </B></TD><TD
+ALIGN=right><B>  0.35</B></TD><TD
+ALIGN=right><B>  17.00  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd208487/hd208487_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>49</B></TD><TD
+ALIGN=left><B>HD1237</B></TD><TD
+ALIGN=left><B>   3.45</B></TD><TD
+ALIGN=left><B>   133.8</B></TD><TD
+ALIGN=left><B>   0.505 </B></TD><TD
+ALIGN=right><B>  0.51</B></TD><TD
+ALIGN=right><B> 164.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>50</B></TD><TD
+ALIGN=left><B> HD37124c</B></TD><TD
+ALIGN=left><B>   0.87</B></TD><TD
+ALIGN=left><B>  154.6 </B></TD><TD
+ALIGN=left><B>   0.53 </B></TD><TD
+ALIGN=right><B> 0.09 </B></TD><TD
+ALIGN=right><B>  37.8   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd37124/hd37124_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>51</B></TD><TD
+ALIGN=left><B>HD219449</B></TD><TD
+ALIGN=left><B>   2.76</B></TD><TD
+ALIGN=left><B>   182.0</B></TD><TD
+ALIGN=left><B>   0.65 </B></TD><TD
+ALIGN=right><B>  0.00</B></TD><TD
+ALIGN=right><B>  93.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd219449/hd219449_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>52</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd73526/hd73526.shtml>HD73526</A></B></TD><TD
+ALIGN=left><B>   2.98</B></TD><TD
+ALIGN=left><B>   184.108</B></TD><TD
+ALIGN=left><B>   0.65 </B></TD><TD
+ALIGN=right><B>  0.44</B></TD><TD
+ALIGN=right><B> 114.76  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd73526/hd73526_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>53</B></TD><TD
+ALIGN=left><B> <A>HD104985</A></B></TD><TD
+ALIGN=left><B>   6.3</B></TD><TD
+ALIGN=left><B>   198.0</B></TD><TD
+ALIGN=left><B>   0.78 </B></TD><TD
+ALIGN=right><B>  0.03</B></TD><TD
+ALIGN=right><B> 161.0 </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://www.journals.uchicago.edu/ApJ/journal/issues/ApJL/v597n2/17520/brief/17520.abstract.html');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>54</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd82943.html>HD82943c</A></B></TD><TD
+ALIGN=left><B>   0.88</B></TD><TD
+ALIGN=left><B>   221.6</B></TD><TD
+ALIGN=left><B>   0.728 </B></TD><TD
+ALIGN=right><B>  0.54</B></TD><TD
+ALIGN=right><B>  34.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://www.eso.org/outreach/press-rel/pr-2000/pr-13-00.html');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>55</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd8574.html>HD8574</A></B></TD><TD
+ALIGN=left><B>   2.04</B></TD><TD
+ALIGN=left><B>   228.18</B></TD><TD
+ALIGN=left><B>   0.77 </B></TD><TD
+ALIGN=right><B>  0.311</B></TD><TD
+ALIGN=right><B>  64.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003A%26A...410.1039P&db_key=AST&high=3fa91d99dd19855');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>56</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd169830.html>HD169830</A></B></TD><TD
+ALIGN=left><B>   2.94</B></TD><TD
+ALIGN=left><B>   229.9</B></TD><TD
+ALIGN=left><B>   0.82 </B></TD><TD
+ALIGN=right><B>  0.35</B></TD><TD
+ALIGN=right><B>  83.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="http://www.edpsciences-usa.org/journal/index.cfm?v_url=aa/full/2001/31/aa10239/aa10239.html">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>57</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/upsandc/upsandc.shtml>HD9826c (Ups And c)</A></B></TD><TD
+ALIGN=left><B>   1.89</B></TD><TD
+ALIGN=left><B>   241.5</B></TD><TD
+ALIGN=left><B>   0.829 </B></TD><TD
+ALIGN=right><B>  0.28</B></TD><TD
+ALIGN=right><B>  53.9   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/upsandc/upsandc_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>58</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd202206.html>HD202206</A></B></TD><TD
+ALIGN=left><B>  17.5</B></TD><TD
+ALIGN=left><B>   256.003</B></TD><TD
+ALIGN=left><B>   0.83 </B></TD><TD
+ALIGN=right><B>  0.429</B></TD><TD
+ALIGN=right><B> 564.8   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd202206/hd202206_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>59</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd89744/hd89744.shtml>HD89744</A></B></TD><TD
+ALIGN=left><B>   7.99</B></TD><TD
+ALIGN=left><B>   256.605</B></TD><TD
+ALIGN=left><B>   0.89 </B></TD><TD
+ALIGN=right><B>  0.67</B></TD><TD
+ALIGN=right><B> 275.26   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd89744/hd89744_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>60</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd134987/hd134987.shtml>HD134987</A></B></TD><TD
+ALIGN=left><B>   1.55</B></TD><TD
+ALIGN=left><B>   258.499</B></TD><TD
+ALIGN=left><B>   0.81 </B></TD><TD
+ALIGN=right><B>  0.25</B></TD><TD
+ALIGN=right><B>  49.35   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd134987/hd134987_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>61</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/hd12661/hd12661.shtml>HD12661b</A></B></TD><TD
+ALIGN=left><B>   2.3</B></TD><TD
+ALIGN=left><B>   263.0</B></TD><TD
+ALIGN=left><B>   0.82 </B></TD><TD
+ALIGN=right><B>  0.33</B></TD><TD
+ALIGN=right><B>  75.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd12661/hd12661_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>62</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd150706.html>HD150706</A></B></TD><TD
+ALIGN=left><B>   1.0</B></TD><TD
+ALIGN=left><B>   264.9</B></TD><TD
+ALIGN=left><B>   0.82 </B></TD><TD
+ALIGN=right><B>  0.38</B></TD><TD
+ALIGN=right><B>  33.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>63</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd40979/hd40979.shtml>HD40979</A></B></TD><TD
+ALIGN=left><B>   3.32</B></TD><TD
+ALIGN=left><B>   267.2</B></TD><TD
+ALIGN=left><B>   0.811 </B></TD><TD
+ALIGN=right><B>  0.23</B></TD><TD
+ALIGN=right><B>  108.0   </B></TD>
+<TD>
+<!-- Publication(s) -->  
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd40979/hd40979_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>64</B></TD><TD
+ALIGN=left><B> HD59686</B></TD><TD
+ALIGN=left><B>  5.25 </B></TD><TD
+ALIGN=left><B>  303.0 </B></TD><TD
+ALIGN=left><B>  0.911 </B></TD><TD
+ALIGN=right><B> 0.00 </B></TD><TD
+ALIGN=right><B>  149.0  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd59686/hd59686_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>65</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd17051/hd17051.shtml>HD17051</A></B></TD><TD
+ALIGN=left><B>   1.94</B></TD><TD
+ALIGN=left><B>   311.288</B></TD><TD
+ALIGN=left><B>   0.91 </B></TD><TD
+ALIGN=right><B>  0.24</B></TD><TD
+ALIGN=right><B>  58.82   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd17051/hd17051_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>66</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd92788/hd92788.shtml>HD92788</A></B></TD><TD
+ALIGN=left><B>   3.31</B></TD><TD
+ALIGN=left><B>   327.393</B></TD><TD
+ALIGN=left><B>   0.95 </B></TD><TD
+ALIGN=right><B>  0.33</B></TD><TD
+ALIGN=right><B> 98.62   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd92788/hd92788_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>67</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd142/hd142.shtml>HD142</A></B></TD><TD
+ALIGN=left><B>   1.07</B></TD><TD
+ALIGN=left><B>   331.872</B></TD><TD
+ALIGN=left><B>   0.97 </B></TD><TD
+ALIGN=right><B>  0.37</B></TD><TD
+ALIGN=right><B>  31.59   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd142/hd142_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>68</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd28185.html>HD28185</A></B></TD><TD
+ALIGN=left><B>   5.7</B></TD><TD
+ALIGN=left><B>   383.0</B></TD><TD
+ALIGN=left><B>    1.03 </B></TD><TD
+ALIGN=right><B>  0.07</B></TD><TD
+ALIGN=right><B> 161.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd28185/hd28185_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>69</B></TD><TD
+ALIGN=left><B> HD196885</B></TD><TD
+ALIGN=left><B> 1.84 </B></TD><TD
+ALIGN=left><B>  386.0 </B></TD><TD
+ALIGN=left><B> 1.22    </B></TD><TD
+ALIGN=right><B> 0.3  </B></TD><TD
+ALIGN=right><B> 46.0    </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>70</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd142415.html>HD142415</A></B></TD><TD
+ALIGN=left><B>   1.73</B></TD><TD
+ALIGN=left><B>   388.0</B></TD><TD
+ALIGN=left><B>    1.07 </B></TD><TD
+ALIGN=right><B>  0.5</B></TD><TD
+ALIGN=right><B> 52.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd142415/hd142415_ref.shtml');">References</A>  <!-- ### link dead -->
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>71</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd108874/hd108874.shtml>HD108874b</A></B></TD><TD
+ALIGN=left><B>   1.78</B></TD><TD
+ALIGN=left><B>   397.428</B></TD><TD
+ALIGN=left><B>    1.06 </B></TD><TD
+ALIGN=right><B>  0.14</B></TD><TD
+ALIGN=right><B>  49.58   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd108874/hd108874_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>72</B></TD><TD
+ALIGN=left><B> HD154857</B></TD><TD
+ALIGN=left><B> 1.90  </B></TD><TD
+ALIGN=left><B> 398.5    </B></TD><TD
+ALIGN=left><B> 1.15    </B></TD><TD
+ALIGN=right><B> 0.51 </B></TD><TD
+ALIGN=right><B>  52.0    </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>73</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd4203/hd4203.shtml>HD4203</A></B></TD><TD
+ALIGN=left><B>   1.65</B></TD><TD
+ALIGN=left><B>   400.944</B></TD><TD
+ALIGN=left><B>    1.09 </B></TD><TD
+ALIGN=right><B>  0.46</B></TD><TD
+ALIGN=right><B>  49.29   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd4203/hd4203_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>74</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd177830/hd177830.shtml>HD177830</A></B></TD><TD
+ALIGN=left><B>   1.52</B></TD><TD
+ALIGN=left><B>   408.377</B></TD><TD
+ALIGN=left><B>    1.14 </B></TD><TD
+ALIGN=right><B>  0.10</B></TD><TD
+ALIGN=right><B>  37.69   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd177830/hd177830_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>75</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd128311/hd128311.shtml>HD128311b</A></B></TD><TD
+ALIGN=left><B>   2.58</B></TD><TD
+ALIGN=left><B>   420.514</B></TD><TD
+ALIGN=left><B>    1.02 </B></TD><TD
+ALIGN=right><B>  0.30</B></TD><TD
+ALIGN=right><B>  84.89   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd128311/hd128311_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>76</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd27442/hd27442.shtml>HD27442</A></B></TD><TD
+ALIGN=left><B>   1.28</B></TD><TD
+ALIGN=left><B>   423.841</B></TD><TD
+ALIGN=left><B>    1.18 </B></TD><TD
+ALIGN=right><B>  0.07</B></TD><TD
+ALIGN=right><B>  30.71   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd27442/hd27442_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>77</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd210277/hd210277.shtml>HD210277</A></B></TD><TD
+ALIGN=left><B>   1.30</B></TD><TD
+ALIGN=left><B>   434.289</B></TD><TD
+ALIGN=left><B>    1.12 </B></TD><TD
+ALIGN=right><B>  0.46</B></TD><TD
+ALIGN=right><B>  39.46   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd210277/hd210277_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>78</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd82943.html>HD82943b</A></B></TD><TD
+ALIGN=left><B>   1.63</B></TD><TD
+ALIGN=left><B>   444.6</B></TD><TD
+ALIGN=left><B>    1.16 </B></TD><TD
+ALIGN=right><B>  0.41</B></TD><TD
+ALIGN=right><B>  46.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://www.eso.org/outreach/press-rel/pr-2000/pr-13-00.html');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>79</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd20367.html>HD20367</A></B></TD><TD
+ALIGN=left><B>   1.17</B></TD><TD
+ALIGN=left><B>   469.5</B></TD><TD
+ALIGN=left><B>    1.25 </B></TD><TD
+ALIGN=right><B>  0.32</B></TD><TD
+ALIGN=right><B>  29.0   </B></TD>
+<TD>
+<!-- Publication(s)
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd20367/hd20367_ref.shtml');">References</A>
+ -->
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>80</B></TD><TD
+ALIGN=left><B> HD188015</B></TD><TD
+ALIGN=left><B> 1.64  </B></TD><TD
+ALIGN=left><B> 470.85 </B></TD><TD
+ALIGN=left><B> 1.22    </B></TD><TD
+ALIGN=right><B> .26  </B></TD><TD
+ALIGN=right><B>  42.0   </B></TD>
+<TD>
+<!-- Publication(s)-->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>81</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd114783/hd114783.shtml>HD114783</A></B></TD><TD
+ALIGN=left><B>   1.05</B></TD><TD
+ALIGN=left><B>   494.665</B></TD><TD
+ALIGN=left><B>    1.19 </B></TD><TD
+ALIGN=right><B>  0.09</B></TD><TD
+ALIGN=right><B>  28.51   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd114783/hd114783_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>82</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hip75458/hip75458.shtml>HD137759 (Hip75458)</A></B></TD><TD
+ALIGN=left><B>   8.47</B></TD><TD
+ALIGN=left><B>   510.833</B></TD><TD
+ALIGN=left><B>    1.28 </B></TD><TD
+ALIGN=right><B>  0.72</B></TD><TD
+ALIGN=right><B> 299.44   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hip75458/hip75458_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>83</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd19994.html>HD19994</A></B></TD><TD
+ALIGN=left><B>  1.68</B></TD><TD
+ALIGN=left><B>   535.7</B></TD><TD
+ALIGN=left><B>    1.42</B></TD><TD
+ALIGN=right><B>  0.3</B></TD><TD
+ALIGN=right><B>  36.2   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>84</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd147513.html>HD147513</A></B></TD><TD
+ALIGN=left><B>   1.0</B></TD><TD
+ALIGN=left><B>   540.4</B></TD><TD
+ALIGN=left><B>    1.26 </B></TD><TD
+ALIGN=right><B>  0.52</B></TD><TD
+ALIGN=right><B>  31.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>85</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd222582/hd222582.shtml>HD222582</A></B></TD><TD
+ALIGN=left><B>   5.11</B></TD><TD
+ALIGN=left><B>   572.0</B></TD><TD
+ALIGN=left><B>    1.35 </B></TD><TD
+ALIGN=right><B>  0.76</B></TD><TD
+ALIGN=right><B> 191.26  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd222582/hd222582_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>86</B></TD><TD   
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd65216.html>HD65216</A></B></TD><TD
+ALIGN=left><B>   1.33</B></TD><TD
+ALIGN=left><B>   578.0</B></TD><TD
+ALIGN=left><B>    1.31</B></TD><TD
+ALIGN=right><B>  0.29</B></TD><TD
+ALIGN=right><B> 37.0  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>87</B></TD><TD   
+ALIGN=left><B> HD183263</B></TD><TD
+ALIGN=left><B> 3.77  </B></TD><TD
+ALIGN=left><B>  631.45</B></TD><TD
+ALIGN=left><B>  1.52  </B></TD><TD
+ALIGN=right><B> 0.37 </B></TD><TD
+ALIGN=right><B> 86.0  </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>88</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd141937.html>HD141937</A></B></TD><TD
+ALIGN=left><B>   9.7</B></TD><TD
+ALIGN=left><B>   653.22</B></TD><TD
+ALIGN=left><B>    1.52 </B></TD><TD
+ALIGN=right><B>  0.41</B></TD><TD
+ALIGN=right><B> 234.5   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd141937/hd141937_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>89</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd41004A.html>HD41004A</A></B></TD><TD
+ALIGN=left><B>   2.3</B></TD><TD
+ALIGN=left><B>   655.0</B></TD><TD
+ALIGN=left><B>    1.31 </B></TD><TD
+ALIGN=right><B>  0.39</B></TD><TD
+ALIGN=right><B> 74.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>90</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd160691/hd160691.shtml>HD160691b</A></B></TD><TD
+ALIGN=left><B>   1.87</B></TD><TD
+ALIGN=left><B>   664.192</B></TD><TD
+ALIGN=left><B>    1.87</B></TD><TD
+ALIGN=right><B>  0.26</B></TD><TD
+ALIGN=right><B>  42.76 </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd160691/hd160691_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>91</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd23079/hd23079.shtml>HD23079</A></B></TD><TD
+ALIGN=left><B>   2.61</B></TD><TD
+ALIGN=left><B>   738.459</B></TD><TD
+ALIGN=left><B>    1.65 </B></TD><TD
+ALIGN=right><B>  0.10</B></TD><TD
+ALIGN=right><B>  55.28   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd23079/hd23079_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>92</B></TD><TD
+ALIGN=left><B> HD137510</B></TD><TD
+ALIGN=left><B> 25.63 </B></TD><TD
+ALIGN=left><B>  778.0   </B></TD><TD
+ALIGN=left><B> 1.83    </B></TD><TD
+ALIGN=right><B> 0.37 </B></TD><TD
+ALIGN=right><B> 497.0    </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>93</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/16cygb/16cygb.shtml>HD186427 (16 Cyg b)</A></B></TD><TD
+ALIGN=left><B>   1.69</B></TD><TD
+ALIGN=left><B>   798.938</B></TD><TD
+ALIGN=left><B>    1.67 </B></TD><TD
+ALIGN=right><B>  0.67</B></TD><TD
+ALIGN=right><B>  51.24   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/16cygb/16cygb_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>94</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd4208/hd4208.shtml>HD4208</A></B></TD><TD
+ALIGN=left><B>   0.80</B></TD><TD
+ALIGN=left><B>   812.197</B></TD><TD
+ALIGN=left><B>    1.67 </B></TD><TD
+ALIGN=right><B>  0.05</B></TD><TD
+ALIGN=right><B>  18.22   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd4208/hd4208_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>95</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd114386.html>HD114386</A></B></TD><TD
+ALIGN=left><B>   0.99</B></TD><TD
+ALIGN=left><B>   872.0</B></TD><TD
+ALIGN=left><B>    1.62 </B></TD><TD
+ALIGN=right><B>  0.28</B></TD><TD
+ALIGN=right><B>  27.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>96</B></TD><TD
+ALIGN=left><B> HD45350</B></TD><TD
+ALIGN=left><B> 1.03  </B></TD><TD
+ALIGN=left><B> 890.0  </B></TD><TD
+ALIGN=left><B> 1.86    </B></TD><TD
+ALIGN=right><B> 0.78 </B></TD><TD
+ALIGN=right><B> 33.0    </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>97</B></TD><TD
+ALIGN=left><B> HD128311c</B></TD><TD
+ALIGN=left><B>  3.24 </B></TD><TD
+ALIGN=left><B>  919.00</B></TD><TD
+ALIGN=left><B>  1.743 </B></TD><TD
+ALIGN=right><B> 0.29 </B></TD><TD
+ALIGN=right><B>   79.8 </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd128311/hd128311_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>98</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd213240.html>HD213240</A></B></TD><TD
+ALIGN=left><B>   4.5</B></TD><TD
+ALIGN=left><B>   951.0</B></TD><TD
+ALIGN=left><B>    2.03 </B></TD><TD
+ALIGN=right><B>  0.45</B></TD><TD
+ALIGN=right><B>  91.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd213240/hd213240_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>99</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd10647.html>HD10647</A></B></TD><TD
+ALIGN=left><B> 0.91  </B></TD><TD
+ALIGN=left><B> 1040.00</B></TD><TD
+ALIGN=left><B>  2.1   </B></TD><TD
+ALIGN=right><B> 0.18 </B></TD><TD
+ALIGN=right><B>   18.0 </B></TD>
+<TD>
+<!-- Publication(s) -->
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>100</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd10697/hd10697.shtml>HD10697</A></B></TD><TD
+ALIGN=left><B>   6.12</B></TD><TD
+ALIGN=left><B>  1077.906</B></TD><TD
+ALIGN=left><B>    2.13 </B></TD><TD
+ALIGN=right><B>  0.11</B></TD><TD
+ALIGN=right><B> 114.19   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd10697/hd10697_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>101</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/47umab/47umab.shtml>HD95128b (47 UMa b)</A></B></TD><TD
+ALIGN=left><B>   2.54</B></TD><TD
+ALIGN=left><B>  1089.0</B></TD><TD
+ALIGN=left><B>    2.09 </B></TD><TD
+ALIGN=right><B>  0.06</B></TD><TD
+ALIGN=right><B>  49.3   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/47umab/47umab_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>102</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd190228.html>HD190228</A></B></TD><TD
+ALIGN=left><B>   3.53</B></TD><TD
+ALIGN=left><B>  1121.0</B></TD><TD
+ALIGN=left><B>    2.0 </B></TD><TD
+ALIGN=right><B>  0.501</B></TD><TD
+ALIGN=right><B>  90.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003A%26A...410.1039P&db_key=AST&high=3fa91d99dd19855');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>103</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd114729/hd114729.shtml>HD114729</A></B></TD><TD
+ALIGN=left><B>   0.82</B></TD><TD
+ALIGN=left><B>  1131.478</B></TD><TD
+ALIGN=left><B>    2.08 </B></TD><TD
+ALIGN=right><B>  0.31</B></TD><TD
+ALIGN=right><B>  17.64   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd114729/hd114729_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>104</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd111232.html>HD111232</A></B></TD><TD
+ALIGN=left><B>   6.8 </B></TD><TD
+ALIGN=left><B>  1143.0</B></TD><TD
+ALIGN=left><B>    1.97 </B></TD><TD
+ALIGN=right><B>  0.2 </B></TD><TD
+ALIGN=right><B>  159.3   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...415..391M&db_key=AST&high=3e772a4cc704079');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>105</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd2039/hd2039.shtml>HD2039</A></B></TD><TD
+ALIGN=left><B>4.85</B></TD><TD
+ALIGN=left><B>1192.582</B></TD><TD
+ALIGN=left><B>2.19</B></TD><TD
+ALIGN=right><B>0.68</B></TD><TD
+ALIGN=right><B>127.82</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd2039/hd2039_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>106</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd136118/hd136118.shtml>HD136118</A></B></TD><TD
+ALIGN=left><B>  12.08</B></TD><TD
+ALIGN=left><B>  1208.724</B></TD><TD
+ALIGN=left><B>    2.40 </B></TD><TD
+ALIGN=right><B>  0.36</B></TD><TD
+ALIGN=right><B> 212.87   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd136118/hd136118_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>107</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd50554/hd50554.shtml>HD50554</A></B></TD><TD
+ALIGN=left><B>   3.92</B></TD><TD
+ALIGN=left><B>  1249.59</B></TD><TD
+ALIGN=left><B>    2.32 </B></TD><TD
+ALIGN=right><B>  0.50</B></TD><TD
+ALIGN=right><B>  81.87   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd50554/hd50554_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>108</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/upsandd/upsandd.shtml>HD9826d (Ups And d)</A></B></TD><TD
+ALIGN=left><B>   3.75</B></TD><TD
+ALIGN=left><B>  1284.0</B></TD><TD
+ALIGN=left><B>    2.53 </B></TD><TD
+ALIGN=right><B>  0.27</B></TD><TD
+ALIGN=right><B>  61.1   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/upsandd/upsandd_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>109</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd196050/hd196050.shtml>HD196050</A></B></TD><TD
+ALIGN=left><B>   2.73</B></TD><TD
+ALIGN=left><B>  1316.236</B></TD><TD
+ALIGN=left><B>    2.43 </B></TD><TD
+ALIGN=right><B>  0.21</B></TD><TD
+ALIGN=right><B>  48.51   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd196050/hd196050_ref.shtml');">References</A>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>110</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd216437/hd216437.shtml>HD216437</A></B></TD><TD
+ALIGN=left><B>   1.98</B></TD><TD
+ALIGN=left><B>  1331.703</B></TD><TD
+ALIGN=left><B>    2.43 </B></TD><TD
+ALIGN=right><B>  0.36</B></TD><TD
+ALIGN=right><B>  37.46   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd216437/hd216437_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>111</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd216435/hd216435.shtml>HD216435</A></B></TD><TD
+ALIGN=left><B>   1.49</B></TD><TD
+ALIGN=left><B>  1442.919</B></TD><TD
+ALIGN=left><B>    2.7  </B></TD><TD
+ALIGN=right><B>  0.34</B></TD><TD
+ALIGN=right><B> 24.54   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd216435/hd216435_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>112</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd169830_syst.html>HD169830c</A></B></TD><TD
+ALIGN=left><B>   2.33</B></TD><TD
+ALIGN=left><B>  1487.0</B></TD><TD
+ALIGN=left><B>    2.75 </B></TD><TD
+ALIGN=right><B>  0.0</B></TD><TD
+ALIGN=right><B> 36.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="http://arXiv.org/abs/astro-ph/0310316">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>113</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd106252/hd106252.shtml>HD106252</A></B></TD><TD
+ALIGN=left><B>   6.81</B></TD><TD
+ALIGN=left><B>  1503.610</B></TD><TD
+ALIGN=left><B>    2.54 </B></TD><TD
+ALIGN=right><B>  0.57</B></TD><TD
+ALIGN=right><B> 150.45   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd106252/hd106252_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>114</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/hd12661/hd12661.shtml>HD12661c</A></B></B></TD><TD
+ALIGN=left><B>   1.5</B></TD><TD
+ALIGN=left><B>  1530.0</B></TD><TD
+ALIGN=left><B>    2.6 </B></TD><TD
+ALIGN=right><B>  0.20</B></TD><TD
+ALIGN=right><B>  27.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd12661/hd12661_ref.shtml');">References</A>
+</TD>
+</TR>
+
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>115</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd23596.html>HD23596</A></B></TD><TD
+ALIGN=left><B>   8.1</B></TD><TD
+ALIGN=left><B>  1548.0</B></TD><TD
+ALIGN=left><B>    2.86 </B></TD><TD
+ALIGN=right><B>  0.298</B></TD><TD
+ALIGN=right><B> 126.0   </B></TD>
+<TD>
+<!-- Publication(s)-->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003A%26A...410.1039P&db_key=AST&high=3fa91d99dd19855');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>116</B></TD><TD
+ALIGN=left><B> HD108874c</B></TD><TD
+ALIGN=left><B> 1.00  </B></TD><TD
+ALIGN=left><B> 1724.00</B></TD><TD
+ALIGN=left><B>  2.807 </B></TD><TD
+ALIGN=right><B> 0.42 </B></TD><TD
+ALIGN=right><B>   18.80</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd108874/hd108874_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>117</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd168443c/hd168443c.shtml>HD168443c</A></B></TD><TD
+ALIGN=left><B>  17.2</B></TD><TD
+ALIGN=left><B>  1770.0</B></TD><TD
+ALIGN=left><B>    2.87 </B></TD><TD
+ALIGN=right><B>  0.20</B></TD><TD
+ALIGN=right><B> 289.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd168443c/hd168443c_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>118</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd145675/hd145675.shtml>HD145675 (14 Her)</A></B></TD><TD
+ALIGN=left><B>   4.89</B></TD><TD
+ALIGN=left><B>  1773.079</B></TD><TD
+ALIGN=left><B>    2.85 </B></TD><TD
+ALIGN=right><B>  0.38</B></TD><TD
+ALIGN=right><B>  88.75   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/14her/14her_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<!-- ### -->
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>119</B></TD><TD
+ALIGN=left><B> HD11964b</B></TD><TD
+ALIGN=left><B> 0.65  </B></TD><TD
+ALIGN=left><B> 1860 </B></TD><TD
+ALIGN=left><B> 3.1 </B></TD><TD
+ALIGN=right><B> 0.3  </B></TD><TD
+ALIGN=right><B> 10.4 </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd11964/hd11964_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>120</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd39091/hd39091.shtml>HD39091</A></B></TD><TD
+ALIGN=left><B>  10.35</B></TD><TD
+ALIGN=left><B>  2063.818</B></TD><TD
+ALIGN=left><B>    3.29 </B></TD><TD
+ALIGN=right><B>  0.62</B></TD><TD
+ALIGN=right><B> 196.92   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd39091/hd39091_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>121</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/hd38529/hd38529.shtml>HD38529c</A></B></TD><TD
+ALIGN=left><B>  12.8</B></TD><TD
+ALIGN=left><B>  2207.4</B></TD><TD
+ALIGN=left><B>    3.71 </B></TD><TD
+ALIGN=right><B>  0.33</B></TD><TD
+ALIGN=right><B> 169.1   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd38529/hd38529_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>122</B></TD><TD
+<ALIGN=left><B><A HREF=http://exoplanets.org/esp/hd70642/hd70642.shtml>HD70642</A></B></TD><TD 
+ALIGN=left><B>  2.0</B></TD><TD
+ALIGN=left><B>  2231.0</B></TD><TD
+ALIGN=left><B>    3.3 </B></TD><TD
+ALIGN=right><B>  0.1</B></TD><TD
+ALIGN=right><B> 32.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd70642/hd70642_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>123</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd33636/hd33636.shtml>HD33636</A></B></TD><TD
+ALIGN=left><B>   9.28</B></TD><TD
+ALIGN=left><B>  2447.292</B></TD><TD
+ALIGN=left><B>    3.56</B></TD><TD
+ALIGN=right><B>  0.53</B></TD><TD
+ALIGN=right><B> 164.52   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd33636/hd33636_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>124</B></TD><TD
+ALIGN=left><B> HD217107c</B></TD><TD
+ALIGN=left><B> 3.31  </B></TD><TD
+ALIGN=left><B> 2500.00</B></TD><TD
+ALIGN=left><B>  3.715  </B></TD><TD
+ALIGN=right><B> 0.53 </B></TD><TD
+ALIGN=right><B>   55.00</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd217107/hd217107_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>125</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/47umac/47umac.shtml>HD95128c (47 UMa c)</A></B></TD><TD
+ALIGN=left><B>   0.76</B></TD><TD
+ALIGN=left><B>  2594.0</B></TD><TD
+ALIGN=left><B>    3.73 </B></TD><TD
+ALIGN=right><B>  0.1</B></TD><TD
+ALIGN=right><B>  11.1   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/47umac/47umac_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>126 </B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/gl777A.html>HD190360 (GJ777A)</A></B></TD><TD
+ALIGN=left><B>   1.15</B></TD><TD
+ALIGN=left><B>  2613.0</B></TD><TD
+ALIGN=left><B>    3.65 </B></TD><TD
+ALIGN=right><B>  0.3</B></TD><TD
+ALIGN=right><B>  17.5  </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003A%26A...410.1051N&db_key=AST&high=3fa91d99dd19855');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>127 </B></TD><TD
+ALIGN=left><B> HD117207</B></TD><TD
+ALIGN=left><B> 2.11  </B></TD><TD
+ALIGN=left><B> 2617.05</B></TD><TD
+ALIGN=left><B>  3.81   </B></TD><TD
+ALIGN=right><B> 0.16</B></TD><TD
+ALIGN=right><B> 30.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>128</B></TD><TD
+ALIGN=left><B> <A HREF=http://obswww.unige.ch/Exoplanets/hd74156.html>HD74156c</A></B></TD><TD
+ALIGN=left><B>   8.21</B></TD><TD
+ALIGN=left><B>  2650.0</B></TD><TD
+ALIGN=left><B>    3.82 </B></TD><TD
+ALIGN=right><B>  0.354</B></TD><TD
+ALIGN=right><B> 125.0   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004A%26A...414..351N&db_key=AST&high=3fa91d99dd26969');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>129</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/epseri/epseri.shtml>HD22049 (Eps Eri)</A></B></TD><TD
+ALIGN=left><B>   0.79</B></TD><TD
+ALIGN=left><B>  2675.0  </B></TD><TD
+ALIGN=left><B>  3.54   </B></TD><TD
+ALIGN=right><B>  0.28</B></TD><TD
+ALIGN=right><B>  13.7    </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/epseri/epseri_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>130</B></TD><TD
+ALIGN=left><B> HD187123c</B></TD><TD
+ALIGN=left><B> 1.70  </B></TD><TD
+ALIGN=left><B> 2750.00</B></TD><TD
+ALIGN=left><B> 3.951  </B></TD><TD
+ALIGN=right><B> 0.50 </B></TD><TD
+ALIGN=right><B>   27.00</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd187123/hd187123_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>131</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd30177/hd30177.shtml>HD30177</A></B></TD><TD
+ALIGN=left><B>   9.17</B></TD><TD
+ALIGN=left><B>  2819.654</B></TD><TD
+ALIGN=left><B>    3.86 </B></TD><TD
+ALIGN=right><B>  0.30</B></TD><TD
+ALIGN=right><B> 142.18   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd30177/hd30177_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>132</B></TD><TD
+ALIGN=left><B> HD160691c</B></TD><TD
+ALIGN=left><B> 3.27  </B></TD><TD
+ALIGN=left><B> 2986.0   </B></TD><TD
+ALIGN=left><B>  4.26   </B></TD><TD
+ALIGN=right><B> 0.57 </B></TD><TD
+ALIGN=right><B>  51.0    </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>133</B></TD><TD
+ALIGN=left><B> HD50499</B></TD><TD
+ALIGN=left><B> 1.84  </B></TD><TD
+ALIGN=left><B> 2990.00</B></TD><TD
+ALIGN=left><B>  4.403 </B></TD><TD
+ALIGN=right><B> 0.32 </B></TD><TD
+ALIGN=right><B>   23.30</B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd50499/hd50499_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>134</B></TD><TD
+ALIGN=left><B> HD89307</B></TD><TD
+ALIGN=left><B> 2.73  </B></TD><TD
+ALIGN=left><B> 3090.0 </B></TD><TD
+ALIGN=left><B> 4.15   </B></TD><TD
+ALIGN=right><B> 0.27 </B></TD><TD
+ALIGN=right><B>  39.7  </B></TD>
+<TD>
+<!-- Publication(s) -->
+References
+</TD>
+</TR>
+
+<TR BGCOLOR=lightblue>
+<TD ALIGN=left><B>135</B></TD><TD
+ALIGN=left><B> <A HREF=http://exoplanets.org/esp/hd72659/hd72659.shtml>HD72659</A></B></TD><TD
+ALIGN=left><B>   3.0</B></TD><TD
+ALIGN=left><B>  3537.154</B></TD><TD
+ALIGN=left><B>    4.5 </B></TD><TD
+ALIGN=right><B>  0.26</B></TD><TD
+ALIGN=right><B>  42.31   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/hd72659/hd72659_ref.shtml');">References</A>
+</TD>
+</TR>
+
+<TR BGCOLOR=white>
+<TD ALIGN=left><B>136</B></TD><TD
+ALIGN=left><B><A HREF=http://exoplanets.org/esp/55cnc/55cnc.shtml>HD75732d (55 Cnc d)</A></B></TD><TD
+ALIGN=left><B>   4.05</B></TD><TD
+ALIGN=left><B>  5360.0</B></TD><TD
+ALIGN=left><B>    5.9 </B></TD><TD
+ALIGN=right><B>  0.16</B></TD><TD
+ALIGN=right><B>  49.3   </B></TD>
+<TD>
+<!-- Publication(s) -->
+<A HREF="javascript:OpenRefsWindow('http://exoplanets.org/esp/55cnc/55cnc_ref.shtml');">References</A>
+</TD>
+</TR>
+
+</TABLE>
+</DIV>
+<br>
+<DIV ALIGN=left>
+<A HREF=http://exoplanets.org/planet_table.txt>
+http://exoplanets.org/planet_table.txt
+</A> <br>
+<BR>
+<A HREF=http://exoplanets.org/>
+Compiled by California &amp; Carnegie Planet Search
+</A>
+</DIV>
+</BODY>
+</HTML>

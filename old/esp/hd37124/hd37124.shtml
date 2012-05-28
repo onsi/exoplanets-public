@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+	<LINK REL=STYLESHEET HREF=http://exoplanets.org/exoplanets.css TYPE=text/css>
+	<STYLE TYPE=text/css>
+		TABLE { color: white }
+	</STYLE>
+	<TITLE>Two Planets Around HD37124</TITLE>
+	
+</HEAD>
+<BODY TEXT=#FFFFFF BGCOLOR=#004669 LINK=#FFFF00 VLINK=#99FFCC ALINK=#FFFF00> <CENTER>
+<H2><FONT COLOR="#FFFFCC">Two Planets Around HD37124</FONT></H2>
+<em>Revised 05 May 2003</em>
+<p><br>
+<P><IMG SRC=../gifs/37124.gif ALIGN=center>
+<P><B><FONT COLOR=#FFFF99><FONT SIZE=5>Velocity versus Time for HD37124<BR>
+(Data from Keck Observatory)
+</FONT></B>
+<BR><P>
+<A HREF=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003ApJ...582..455B&db_key=AST&high=3ce6ae2f4208977>Butler et al. 2003, ApJ, 582, 455</a>
+
+
+<FONT COLOR=#FFFFFF>
+<HR>
+<P><P>
+<H2><B><FONT COLOR=#FFFF99><FONT SIZE=4>Orbital Parameters and Planet Mass<BR>
+Keck Observatory
+</FONT></B></H2>
+        <!-- http://exoplanets.org/esp/params/37124system.param -->
+        <TABLE BORDER>
+<CAPTION>
+  Latest Orbital Parameters
+</CAPTION>
+<THEAD>
+<TR>
+  <TH>Planet</TH>
+  <TH>Period (d)</TH>
+  <TH>T<SUB>peri</SUB> (JD-2450000)</TH>
+  <TH>ecc</TH>
+  <TH>omega (deg)</TH>
+  <TH>Vel Amp, K (m/s)</TH>
+  <TH>M sin <EM>i</EM> (M<SUB>jup</SUB>)</TH>
+  <TH>a (AU)</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR ALIGN=center>
+  <TD>b</TD>
+  <TD>153</TD>
+  <TD>0144.7</TD>
+  <TD>.10</TD>
+  <TD>60</TD>
+  <TD>28.8</TD>
+  <TD>0.72</TD>
+  <TD>0.54</TD>
+</TR>
+<TR ALIGN=center>
+  <TD>c</TD>
+  <TD>1595 (60)</TD>
+  <TD>266</TD>
+  <TD>0.69</TD>
+  <TD>241</TD>
+  <TD>32.4</TD>
+  <TD>1.3</TD>
+  <TD>2.5</TD>
+</TR>
+
+</TBODY>
+</table>
+
+<EM>Data provided by <A HREF=http://exoplanets.org/team.html>California &amp; Carnegie Planet Search Team</A> </EM>
+        
+<P><P><P>
+<HR>
+<P><P>
+<CENTER>
+<TABLE BORDER>
+<CAPTION>Stellar Characteristics</CAPTION>
+<THEAD>
+<TR>
+<TH>Spectral Type</TH>
+<TH>Mass (M<SUB>Sun</SUB>)</TH>
+<TH>Apparent magnitude</TH>
+<TH>Distance (pc)</TH>
+<TH>P<SUB>rot</SUB>(d)</TH>
+<TH>[Fe/H]</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR ALIGN=center>
+<TD>G4V</TD> <!-- Spectral type here -->
+<TD>0.91</TD> <!-- Stellar mass here -->
+<TD>7.68</TD> <!-- Apparent magnitude here -->
+<TD>33.2</TD> <!-- Distance (pc) here -->
+<TD>25.58</TD> <!-- Rotation period (d) here -->
+<TD>-0.32</TD> <!-- Metallicity here -->
+</TR>
+</TBODY>
+</TABLE>
+</CENTER>
+<BR>
+<P><B><A HREF=http://exoplanets.org/planet_table.shtml>Return to planet almanac...</A></B>
+</BODY>
+</HTML>

@@ -1,0 +1,269 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFE6CC;
+}
+
+div.first {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	background-image:url(tile.gif);
+	background-repeat:repeat-x;
+	padding:none;
+	border:none;
+	width: 100%;
+	min-width:997px;
+	height: 160px;
+	overflow:visible;
+}
+
+div.second {
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	z-index:0;
+	background-image:url(db_mini.gif);
+	background-repeat:repeat-x;
+	padding:none;
+	border:none;
+	width: 100%;
+	height: 236px;
+	overflow:visible;
+}
+
+img.uclogo { 
+	position: absolute; 
+	top: 22px;
+	left: 705px;
+	z-index: 1;
+}
+
+img.carnegie { 
+	position: absolute; 
+	top: 22px;
+	left: 858px;
+	z-index: 1;
+}
+
+img.topLeft { 
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	z-index:inherit;
+}
+
+img.bottom { 
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	z-index:inherit;
+}
+
+
+
+a.roll {
+	 display:block; 
+	 height:53px; 
+	 width:180px;
+	 overflow:hidden;
+}
+a.roll:hover { display:block; text-indent:-180px; }
+a.roll2 {
+	 display:block; 
+	 height:52px; 
+	 width:180px;
+	 overflow:hidden;
+}
+a.roll2:hover { display:block; text-indent:-180px; }
+
+a.navLink  {
+	color:#FFFFFF;
+}
+a.navLink:link { color:#333333; text-decoration:none;}
+a.navLink:visited { color: black; text-decoration:none;} 
+a.navLink:hover { color:#FF9900; text-decoration:none;} 
+
+a.cLink  {
+	color:#FFFFFF;
+}
+a.cLink:link { color: white; text-decoration:none;}
+a.cLink:visited { color: white; text-decoration:none;} 
+a.cLink:hover { color:#0099FF; text-decoration:none;} 
+
+a.cLink2  {
+	color:#FFFFFF;
+}
+a.cLink2:link { color: white; text-decoration:none;}
+a.cLink2:visited { color: white; text-decoration:none;} 
+a.cLink2:hover { color: white; text-decoration:none;} 
+
+a.cLink3  {
+	color:#FFFFFF;
+}
+a.cLink3:link { color: white; text-decoration:none;}
+a.cLink3:visited { color: white; text-decoration:none;} 
+a.cLink3:hover { color:#FFFF33; text-decoration:none;} 
+
+.style3 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px;}
+
+div.Nav { 
+	position: absolute; 
+	top: 134px;
+	left: 27px;
+	z-index: 2;
+	width: 180px;
+	height: 550px;
+}
+
+div.NavBottom { 
+	position:relative;
+	z-index:inherit;
+	width: 160px;
+	height: 289px;
+	background-image:url(db_grad.jpg);
+	background-repeat:no-repeat;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+div.main { 
+	position: absolute; 
+	top: 426px;
+	left: 241px;
+	z-index: 2;
+	height: 539px;
+	min-width:600px;
+	width:663px;
+	max-width:600px;
+}
+
+div.bottomBox { 
+	position:absolute;
+	z-index:2;
+	top:1300px;
+	left:0px;
+	width:100;
+	height: 60px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+	text-decoration:none;
+	overflow:hidden;
+}
+
+div.sponsors { 
+	position: absolute; 
+	top: 650px;
+	left: 27px;
+	z-index: 1;
+	width: 180px;
+	height: 325px;
+	text-align:center;
+}
+
+.style9 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 22px;
+}
+.style11 {
+	font-size: 16px;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+.style13 {font-size: 14px}
+.style14 {font-size: 12px}
+.style15 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.style20 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:bold;
+}
+.style16 {color: #333333}
+
+.style17 {font-size: 18px}
+.style18 {font-size: 17px}
+.style19 {color: #333333}
+.style27 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.style28 {	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+div.linkText {
+	position: absolute;
+	top: 95px;
+	left: 27px;
+	z-index: 2;
+	text-align:left;
+	width: 238px;
+}
+
+.noDec {text-decoration:none; color:#FFFFFF;}
+
+div.catText {
+	position:static;
+	top:0px;
+	left:0px;
+	z-index:5;
+	width:270;
+	text-decoration:none;
+	text-align:center;
+}
+
+img.catTex {
+	position:static;
+	top:0px;
+	left:0px;
+	z-index:4;
+	width:270;
+	border:none;
+}
+
+div.lickText {
+	position:relative;
+	top:195px;
+	left:0px;
+	z-index:4;
+	width:270;
+
+	text-decoration:none;
+	text-align:center;
+}
+
+div.supportText {
+	position:relative;
+	top:140px;
+	left:0px;
+	z-index:4;
+	width:270;
+
+	text-decoration:none;
+	text-align:center;
+}
+
+div.topBox {
+	position:relative;
+	top: 70px;
+	z-index: 2;
+	text-align:left;
+	width: 200px;
+	a
+	
+}

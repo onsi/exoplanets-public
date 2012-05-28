@@ -1,0 +1,108 @@
+<html>
+<head><LINK REL="STYLESHEET" HREF="/exoplanets.css" TYPE="text/css">
+<title>Planet Around HD23079</title>
+</head>
+<body text=#FFFFFF bgcolor=#004669 link=#FFFF00 vlink=#99FFCC alink=#FFFF00>
+<center><h1>
+<font color="#FFFFCC">The Planet Around HD23079</font></h2>
+<em>Revised 04 May 2003</em>
+<p><br>
+<img SRC=../gifs/23079 align=CENTER>
+<p><b><font color=#FFFF99><font size=5>Velocity versus Orbital Phase for HD23079<BR>
+(Data from the AAT)
+</font></b>
+<br><P>
+<br><P>
+<font color=#FFFFFF>
+
+<A HREF=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002ApJ...571..528T&db_key=AST&high=3eadc56af511763>
+
+<b>Tinney et al. 2002, ApJ 571, 528</b></A><br>
+
+
+
+<BR>
+<A HREF=http://www.aao.gov.au/local/www/cgt/planets/pressing/><IMG SRC=../../graphics/whiteDot.gif BORDER=0>AAT Announcement</A>
+<p><P><P>
+<HR>
+<P><P>
+<h2><b><font color=#FFFF99><font size=4>Orbital Parameters and Planet Mass<BR>
+Anglo-Australian Telescope
+</font></b></h2>
+	<!-- star=23079 -->
+<table BORDER WIDTH=100%>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Period <BR>(d)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>T_peri <BR>(JD-2450000)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>ecc</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>omega <BR>(deg)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Vel Amp, K<BR> (m/s) </font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Msini <BR>(M_jup)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>a <BR>(AU)</font></b></td>
+<td </TR><font color=#FFFFFF></font></td>
+</tr>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+   738.459
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+   -289.83
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+      0.10
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+ 43
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+     55.28
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+      2.61
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+      1.65
+</font></b></td>
+</tr>
+</table>
+<DIV ALIGN=left>
+<B>Chi-squared = 
+      0.74
+</B></DIV>
+
+<EM>Data provided by <A HREF=http://exoplanets.org/team.html>California &amp; Carnegie Planet Search Team</A> </EM>
+	
+<p><P><P>
+<HR>
+<P><P>
+<center>
+<h2>
+<b><font color=#FFFF99><font size=4>Stellar Characteristics
+</font></font></b></h2></center>
+<table BORDER WIDTH=100%>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Spectral Type</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Mass <BR>(M_sun)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Apparent <BR>magnitude</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Distance <BR>(ly)</font></b></td>
+<!--
+<td ALIGN=LEFT><b><font color=#FFFFFF>P_rot <BR>(d)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>[Fe/H]</font></b></td>
+-->
+<td </TR><font color=#FFFFFF></font></td></tr>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>F8/G0V</font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 1.10 </font></b></td>
+  <td ALIGN=LEFT><b><font color=#FFFFFF> 7.1 </font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF> 113</TD>
+<!--
+  <td ALIGN=LEFT><b><font color=#FFFFFF> +0.28 </font></b></td>
+-->
+</tr>
+</table>
+</center>
+<br><b><font color=#FFFFFF></font></b>&nbsp;<font color="#FFFFFF"></font>
+<p><b><a href=../../index.html>
+Return to planet-search home page...</a></b>
+</body>
+</html>

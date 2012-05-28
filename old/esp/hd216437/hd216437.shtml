@@ -1,0 +1,108 @@
+<HTML>
+<HEAD>
+	<LINK REL=STYLESHEET HREF=http://exoplanets.org/exoplanets.css TYPE=text/css>
+	<STYLE TYPE=text/css>
+		TABLE { color: white }
+	</STYLE>
+	<TITLE>The Planet Around HD216437</TITLE>
+	
+</HEAD>
+<BODY TEXT=#FFFFFF BGCOLOR=#004669 LINK=#FFFF00 VLINK=#99FFCC ALINK=#FFFF00> <CENTER><H1>
+<FONT COLOR="#FFFFCC">The Planet Around HD216437</FONT></H2>
+<em>Revised 07 May 2003</em>
+<p><br>
+<IMG SRC=../gifs/216437 ALIGN=center>
+<P><B><FONT COLOR=#FFFF99><FONT SIZE=5>Velocity versus Time for HD216437<BR>
+(Data from Anglo-Australian Telescope)
+</FONT></B>
+<BR><P>
+<TABLE><TR><TD><H2>Jones et al. 2002, MNRAS submitted:<H2></TD><TD><UL><LI><A HREF=../../papers/j2002b.ps>Postscript</A></LI><LI><A HREF=../../papers/j2002b.pdf>Acrobat</A></LI></TD></TR></TABLE>
+
+
+<br><A HREF=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2002MNRAS.337.1170J&db_key=AST&high=3eadc56af523152>
+<b>Jones et al. 2002, MNRAS 337, 1170</b></A><br>
+
+
+<FONT COLOR=#FFFFFF>
+<HR>
+<P><P>
+<H2><B><FONT COLOR=#FFFF99><FONT SIZE=4>Orbital Parameters and Planet Mass<BR>
+Anglo-Australian Telescope
+</FONT></B></H2>
+        <!-- http://exoplanets.org/esp/params/ -->
+        <!-- star=216437 -->
+<table BORDER WIDTH=100%>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Period <BR>(d)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>T_peri <BR>(JD-2450000)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>ecc</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>omega <BR>(deg)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Vel Amp, K<BR> (m/s) </font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>Msini <BR>(M_jup)</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>a <BR>(AU)</font></b></td>
+<td </TR><font color=#FFFFFF></font></td>
+</tr>
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+  1331.703
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+   1944.66
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+      0.36
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+ 66
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+     37.46
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+      1.98
+</font></b></td>
+<td ALIGN=LEFT><b><font color=#FFFFFF>
+      2.43
+</font></b></td>
+</tr>
+</table>
+<DIV ALIGN=left>
+<B>Chi-squared = 
+      1.46
+</B></DIV>
+
+<EM>Data provided by <A HREF=http://exoplanets.org/team.html>California &amp; Carnegie Planet Search Team</A> </EM>
+        
+<P><P><P>
+<HR>
+<P><P>
+<CENTER>
+<TABLE BORDER>
+<CAPTION>Stellar Characteristics</CAPTION>
+<THEAD>
+<TR>
+<TH>Spectral Type</TH>
+<TH>Mass (M<SUB>Sun</SUB>)</TH>
+<TH>Apparent magnitude</TH>
+<TH>Distance (pc)</TH>
+<TH>P<SUB>rot</SUB>(d)</TH>
+<TH>[Fe/H]</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR ALIGN=center>
+<TD>G2-3IV</TD> <!-- Spectral type here -->
+<TD>1.07</TD> <!-- Stellar mass here -->
+<TD>6.05</TD> <!-- Apparent magnitude here -->
+<TD>26.5</TD> <!-- Distance (pc) here -->
+<TD>-</TD> <!-- Rotation period (d) here -->
+<TD>0.0</TD> <!-- Metallicity here -->
+</TR>
+</TBODY>
+</TABLE>
+</CENTER>
+<DIV ALIGN=left>
+<P><B><A HREF=http://exoplanets.org/planet_table.shtml>Return to planet almanac...</A></B>
+</DIV>
+</BODY>
+</HTML>

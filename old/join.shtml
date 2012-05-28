@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Exoplanets.org</title>
+<link href="donate_styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- BACKGROUND PANORAMA -->
+<div class="first"><img src="donate_topleft.jpg" class="topLeft" alt=""/>
+<a href="http://www.berkeley.edu"><img src="uclogo2.gif" width="88" height="88" class="uclogo" alt="" border="none"/></a>
+<a href="http://www.carnegieinstitution.org/"><img src="carnegie.gif" width="88" height="88" class="carnegie" alt="" border="none"/></a>
+</div>
+<div class="second"><img src="donate_bottom.jpg" class="bottom" alt=""/></div>
+
+<div class="Nav">
+	<a class="roll" href="planets.shtml"><img src="db_cne.jpg" border="none" alt=""/></a>
+	<a class="roll2" href="http://exoplanets.org/newsframe.html"><img src="db_pr.jpg" border="none" alt=""/></a>
+	<a class="roll2" href="http://exoplanets.org/papersframe.html"><img src="db_pub.jpg" border="none" alt=""/></a>
+	<a class="roll2" href="http://exoplanets.org/rpf.html"><img src="db_rps.jpg" border="none" alt=""/></a>
+	<a class="roll2" href="http://www.physics.sfsu.edu/SIM"><img src="db_spq.jpg" border="none" alt=""/></a>
+	<div class = "NavBottom">
+		<br />
+		<a href="http://exoplanets.org/exoplanets_pub.html" class="navLink">Education and Public Information</a><br />
+		<br />
+	    <a class="navLink" href="http://cips.berkeley.edu/">Center For Integrative Planetary Science</a><br />
+		<br />
+		<a class="navLink" href="http://exoplanets.org/teamframe.html">Team Members</a><br />
+		<br />
+		<a class="navLink" href="http://exoplanets.org/linkframe.html">Links</a><br />
+	</div>
+</div>
+
+<div class="linkText">
+<a href="http://www.exoplanets.org" class="style27">Exoplanets.org</a> <span class="style28">&#8250;</span><span class="style27">&nbsp;Support Us</span></div>
+
+<div class="main"><span class="style15">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>T</strong>he hunt for new planetary systems, especially for analogs to our own Solar System, 
+requires a dedicated planet-hunting telescope.  Construction is currently underway of a robotic telescope designed to discover the first Earth-like planets 
+in our Galactic neighborhood.  We are seeking donors to help us raise funds to:<br />
+<br />
+<ul><li>
+Construct and name the new 2.4-meter telescope dedicated to the Doppler detection of extrasolar planets of terrestrial size for the first time. ($3 million) <br />
+<br />
+</li>
+<li>
+Endow a chair in extrasolar planetetary science at the University of California or Carnegie Institution ($2.1 million)
+</li>
+</ul>
+</span>
+<br /><br />
+<span class="style20">How to Donate</span>
+<span class="style15">
+<br />
+<br />
+Interested persons may support the Planet Search with either:
+<ul><li><a href="http://givetocal.berkeley.edu/makeagift/planet_search/">on-line donations</a>, or</li>
+<li><a href="http://exoplanets.org/exoplanet_donation_form.pdf">mailed contributions</a>.</li>
+</ul>
+For more ways to support the search for extrasolar planets please contact questions@exoplanets.org.
+</span><br /><br /><br />
+
+<div class="sponsors">
+<span class="style15"><span class="style16">Research supported by:</span><br />
+<br />
+<br />
+</span><a href="http://www.nasa.gov"><img src="db_nasa.gif" width="100" height="83" alt="" border="none"/></a><br />
+<br />
+<a href="http://www.nsf.gov"><img src="db_nsf.gif" width="95" height="95" alt="" border="none"/></a><br />
+<br />
+</div>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Planet Search Project currently enjoys operating support from NASA and the NSF. 
+Sun Microsystems has generously donated sophisticated equipment critical to the data reduction from our digital exposures of distant stars.
+<div class="bottomBox"><br />
+	&copy;2006 California and Carnegie Planet Search
+</div>
+
+</body>
+</html>
+

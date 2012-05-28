@@ -1,0 +1,92 @@
+<HTML>
+<HEAD><LINK REL="STYLESHEET" HREF="/exoplanets.css" TYPE="text/css">
+<META NAME ="keywords" CONTENT="exoplanet, extrasolar planets, exoplanets, discovery, new">
+<META NAME ="description" CONTENT="Discovery of exoplanets, orbits, masses, and eccentricities by Doppler method.">
+<!--// This page is about exoplanet discoveries and extrasolar planets and their masses and orbits.//--!>
+<TITLE>California & Carnegie Planet Search</TITLE>
+<SCRIPT LANGUAGE="JavaScript"><!--
+		 if (parent.frames.length > 0) {
+		 parent.location.href = location.href;
+	         }
+		 // --></script>
+<LINK REL="STYLESHEET" HREF="/exoplanets.css" TYPE="text/css">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#004696" LINK="#FFFFFF" VLINK="#ffff99">
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=10
+	WIDTH=900 BGCOLOR="999999">
+    <TR><TD VALIGN=top COLSPAN=2 BGCOLOR="#004696" ALIGN=left>
+      <IMG SRC="graphics/uclogo.gif" ALIGN=middle HEIGHT=80>
+      <FONT SIZE=6 COLOR="grey">
+	<b>California & Carnegie Planet Search</B></FONT>
+      <IMG SRC="graphics/carnegie_logo.gif" ALIGN=middle HEIGHT=80>
+    </TD></TR>        
+                            
+    <TR><TD VALIGN=top>
+      <TABLE BORDER=0 HEIGHT=300 bgcolor="#555555" cellpadding=30>
+        <TR><TD VALIGN=top>
+        <center><h2><font color="gold">
+        <b> Two Neptune-Mass Planets Discovered<br></H2>
+        <font size=4 color="black">
+        <A HREF=http://exoplanets.org/neptune_web/press_release_nsf.htm 
+          TARGET=_top>NSF Press Release</a><BR>
+        <a href=http://planetquest.jpl.nasa.gov>NASA Announcement </a><BR>
+	<a href=./neptune_web/neptune_graphics.html> Planet Graphics</a><br>
+        <A HREF=http://exoplanets.org/neptune_web/neptune_graphics.html TARGET=_top>
+        <P><IMG SRC="neptune_web/gl436_graphic.jpg" width="350" ><br>
+        <P><BR><b><font size=3><a href=neptune_web/gl436.pdf> A Neptune-Mass Planet 
+            Orbiting the Nearby M Dwarf GJ436<BR>
+	    Butler et. al., to appear in Dec 2004 ApJ</a>
+	<P><a href="http://clyde.as.utexas.edu/SpAstNEW/planets.html"> Detection of a Neptune-Mass Planet 
+	    in the 55 Cancri System by the HET <br>
+	    McArthur et. al., to appear in Dec 2004 ApJ</a>
+        </TD></TR>
+      </table>
+    </td>
+
+    <TD VALIGN=top>
+    <p><TABLE BORDER=0 CELLPADDING=0>
+      <TR><TD VALIGN=top><BR>
+         <P><h3>155 planets are known outside our <br> Solar System  
+             (June 13, 2005). </h3>
+	 <center>
+         <IMG SRC="multi_panel_sm.gif" height=200></center><BR>
+      </TD></TR>
+    </TABLE><BR>
+    <TABLE cellspacing=4>
+      <TR><TD VALIGN=top>
+	 <FONT SIZE=4 COLOR="darkblue">
+         <P><b><A HREF="almanacframe.html">
+	 <IMG SRC=graphics/whiteDot.gif BORDER=0>Almanac of Planets</A><BR>
+	 <A HREF="newsframe.html"><IMG SRC=graphics/whiteDot.gif 
+	     BORDER=0><FONT SIZE=4 COLOR="darkblue">Planet Research</A><BR>
+         <A HREF="papersframe.html">
+	 <FONT SIZE=4 COLOR="darkblue">	<IMG SRC=graphics/whiteDot.gif 
+	     BORDER=0>Publications</A><BR>
+         <A HREF="http://www.physics.sfsu.edu/SIM">
+	 <b><IMG SRC=graphics/whiteDot.gif BORDER=0><FONT SIZE=4 COLOR="darkblue">
+	       Our SIM Key Science Project</A>    <BR>
+	 <A HREF="teamframe.html">
+	 <b><IMG SRC=graphics/whiteDot.gif BORDER=0><FONT SIZE=4 
+	       COLOR="darkblue">Team Members</A><BR>
+	 <A HREF="linkframe.html">
+	 <b><IMG SRC=graphics/whiteDot.gif BORDER=0><FONT SIZE=4 
+	       COLOR="darkblue">Links</A><BR>
+         <A HREF="http://exoplanets.org/exoplanets_pub.html" TARGET=_top>
+	 <b><IMG SRC=graphics/whiteDot.gif BORDER=0><FONT SIZE=4 
+	       COLOR="darkblue"> General Information</FONT></B></A><BR>
+    </TD></TR>
+  </TABLE>
+  </TD></TR>
+  <TR><TD VALIGN=top COLSPAN=2 >
+  <TABLE BORDER=0 BGCOLOR="#999999" CELLPADDING=20 HEIGHT=80
+	WIDTH="100%">
+    <tr><TD VALIGN=top>
+       <FONT SIZE=4><B>We gratefully acknowledge support from:
+       <A HREF="http://www.nasa.gov" target="_top">NASA,</A> 
+       <A HREF="http://www.nsf.gov" target="_top">NSF,</A> and 
+       <A HREF="http://www.sun.com" target="_top">Sun&nbsp;Microsystems.</A>
+    </TD></TR>
+  </TABLE>
+</TD></TR>
+</TABLE>
+</BODY></HTML>
