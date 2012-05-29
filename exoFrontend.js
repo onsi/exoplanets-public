@@ -23,7 +23,7 @@ $(document).ready(function () {
     $('body').append(divs.divContainer = $('<div>', {id: 'divContainer'}));
     divs.divContainer.append(divs.planet = $('<div>', {id: 'planet_tr'}));
     divs.divContainer.append(divs.exoplanetsText = $('<div>', {id: 'exoplanetsFlareText'}));
-    
+	divs.divContainer.append(divs.planetCount = $('<div>', {id: 'planetCount'}))    
     divs.divContainer.append(divs.containerTop = $('<div>', {id: 'containerTop'}))
     divs.containerTop.append(divs.containerTL = $('<div>', {id: 'containerTL'}))
     divs.containerTop.append(divs.containerTM = $('<div>', {id: 'containerTM'}))
@@ -112,12 +112,18 @@ $(document).ready(function () {
             rc.wrap($('<a>',{href:el.attr('linkto'),'class':'hiddenAnchor'}));
         }
     })
+	
+	//Get planet count
+	$.getJSON('/columns/count', function(data) {
+		divs.planetCount.html('<span>home for</span> <span class="count">' + data.count +  '</span> <span>planets</span>');
+	});
 
     resize = function (e) {
         var i, ilen;
         var w=divs.divContainer.width();
         var margin=Math.min((w-930)/2.,100);
         divs.exoplanetsText.css({left:margin-28});
+		divs.planetCount.css({left:margin + 390});
         var widthStyle={left:margin,right:margin};
         divs.containerTop.css(widthStyle);
         divs.containerMiddle.css(widthStyle);

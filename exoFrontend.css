@@ -196,6 +196,23 @@ div.separator {
     z-index:2;
 }
 
+#planetCount {
+	position:absolute;
+	height:96px;
+	line-height:96px;
+	font-size:30px;
+}
+
+#planetCount span {
+	opacity:0.5;
+}
+
+#planetCount span.count {
+	opacity:1.0;
+	text-shadow:0 0 20px #fff;
+}
+
+
 #planet {
     position:absolute;
     background-image: url(./images/frontend/planet.png);
