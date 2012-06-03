@@ -115,7 +115,7 @@ $(document).ready(function () {
 	
 	//Get planet count
 	$.getJSON('/columns/count', function(data) {
-		divs.planetCount.html('<span>home for</span> <span class="count">' + data.count +  '</span> <span>planets</span>');
+		divs.planetCount.html('<span>home for</span> <span class="count">' + data.count +  '</span> <span>exoplanets</span>');
 	});
 
     resize = function (e) {
