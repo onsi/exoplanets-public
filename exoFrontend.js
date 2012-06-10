@@ -164,7 +164,6 @@ $(document).ready(function () {
     setTimeout(resize, 1000);
     setTimeout(resize, 10000);
     var _gaq = _gaq || [];
-    //_gaq.push(['_setAccount', 'UA-9825700-3']);
     _gaq.push(['_setAccount', 'UA-9825700-1']);
     _gaq.push(['_trackPageview']);
 
