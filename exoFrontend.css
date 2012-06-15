@@ -60,11 +60,24 @@ a:visited {
 }
 a:hover {
     text-shadow: #fff 0px 0px 2px;
-    color:#FFF;
+    color:#FFF !important;
 }
 a:active {
     color:#FFF;
     text-shadow: none;
+}
+
+#twitter-widget .twtr-tweet a:hover {
+  color:#FFF !important;
+}
+
+.lower-section #twitter-widget .twtr-hd a, .lower-section #twitter-widget h3, .lower-section #twitter-widget h4 {
+  background-color: transparent !important;
+}
+
+#twitter-widget .twtr-doc {
+  -webkit-box-shadow:0px 0px 6px #7f99c0;
+  -moz-box-shadow:0px 0px 6px #7f99c0;
 }
 
 a.hiddenAnchor {
@@ -170,6 +183,16 @@ div.separator {
     width:250px;
     height:1px;
     background-image: url(./images/frontend/separator.png);
+}
+
+div.lower-section div.left {
+  float:left;
+  width:60%;
+}
+
+div.lower-section div.right {
+  float:right;
+  width:35%;
 }
 
 #divContainer {

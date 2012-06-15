@@ -59,20 +59,57 @@
             </strong> 
         </div> 
         <hr> 
-        <p> 
-            The Exoplanet Orbit Database is produced and maintained by Dr. Jason Wright, Dr. Geoff Marcy, and the California Planet Survey consortium. The Exoplanet Data Explorer and website design and maintenance is by Dr. Onsi Fakhouri.  Please send Database updates or corrections to <a href="mailto:datamaster@exoplanets.org">datamaster@exoplanets.org</a>, and send website or Data Explorer bug reports to <a href="mailto:webmaster@exoplanets.org">webmaster@exoplanets.org</a>.
-        </p> 
-        <div class="footnote"> 
-            This research has made use of the <a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD database</a>, operated at CDS, Strasbourg, France, NASA's <a href="http://adsabs.harvard.edu/abs">Astrophysics Data System</a>, the <a HREF="http://nsted.ipac.caltech.edu">NASA/IPAC/NExScI Star and Exoplanet Database (NStED)</A>, the <a href="http://exoplanet.eu">Exoplanets Encyclopedia</a> maintained by Jean Schneider, and data products from 2MASS, which is a joint project of the University of Massachusetts and IPAC/Caltech.  This research received generous funding from NASA and the NSF.
-        </div> 
-        <div class="footnote"> 
-            The Exoplanet Data Explorer is best experienced on the latest version of <a href="http://www.google.com/chrome">Google Chrome</a> or <a href="http://www.apple.com/safari/">Apple Safari</a>. The latest version of <a href="http://www.mozilla.com/en-US/firefox/">Mozilla Firefox</a> is supported too. Internet Explorer is not supported.
-        </div> 
-        <div class="footnote"> 
-            Report bugs and send comments to onsi@berkeley.edu
-        </div> 
+        <div class="lower-section">
+          <div class="left">
+            <p> 
+                The Exoplanet Orbit Database is produced and maintained by Dr. Jason Wright, Dr. Geoff Marcy, and the California Planet Survey consortium. The Exoplanet Data Explorer and website design and maintenance is by Dr. Onsi Fakhouri.  Please send Database updates or corrections to <a href="mailto:datamaster@exoplanets.org">datamaster@exoplanets.org</a>, and send website or Data Explorer bug reports to <a href="mailto:webmaster@exoplanets.org">webmaster@exoplanets.org</a>.
+            </p> 
+            <div class="footnote"> 
+                This research has made use of the <a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD database</a>, operated at CDS, Strasbourg, France, NASA's <a href="http://adsabs.harvard.edu/abs">Astrophysics Data System</a>, the <a HREF="http://nsted.ipac.caltech.edu">NASA/IPAC/NExScI Star and Exoplanet Database (NStED)</A>, the <a href="http://exoplanet.eu">Exoplanets Encyclopedia</a> maintained by Jean Schneider, and data products from 2MASS, which is a joint project of the University of Massachusetts and IPAC/Caltech.  This research received generous funding from NASA and the NSF.
+            </div> 
+            <div class="footnote"> 
+                The Exoplanet Data Explorer is best experienced on the latest version of <a href="http://www.google.com/chrome">Google Chrome</a> or <a href="http://www.apple.com/safari/">Apple Safari</a>. The latest version of <a href="http://www.mozilla.com/en-US/firefox/">Mozilla Firefox</a> is supported too. Internet Explorer is not supported.
+            </div> 
+            <div class="footnote"> 
+                Report bugs and send comments to onsi@berkeley.edu
+            </div> 
+          </div>
+          
+          <div class="right" id="twitter-widget">
+          </div>
+        </div>
     </div> 
  
     <script src="./exoFrontend.js"></script> 
+    
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      id: 'twitter-widget',
+      type: 'profile',
+      rpp: 6,
+      interval: 30000,
+      width: 'auto',
+      height: 300,
+      theme: {
+        shell: {
+          background: 'rgba(27, 42, 99,0.7)',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: 'rgba(0,0,0,0.3)',
+          color: '#ffffff',
+          links: '#7151E4'
+        }
+      },
+      features: {
+        scrollbar: true,
+        loop: false,
+        live: true,
+        behavior: 'all'
+      }
+    }).render().setUser('ExoplanetsOrg').start();
+    </script>
 </body>
 </html>
