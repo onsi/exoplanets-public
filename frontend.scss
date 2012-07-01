@@ -1,0 +1,330 @@
+@import 'sass/bourbon/bourbon';
+
+body {
+  background-color:#151515;
+  color:#333333;
+  background-image:url('images/BackgroundTexture.jpg');
+  background-attachment:fixed;
+  margin:0;
+  padding:0;
+  font-family:Tahoma, Helvetica, sans-serif;
+}
+
+a {
+  color:#000;
+  &:visited {
+    color:#444;
+  }
+}
+
+.center-column {
+  width:900px;
+  margin:0 auto;
+}
+
+.header {
+  position:fixed;
+  top:0;
+  z-index:10;
+  //background-color:#eeeeee;
+  @include linear-gradient(#eeeeee, #ffffff);
+  height:80px;
+  width:900px;
+  @include box-shadow(0 0 5px 1px rgba(255, 255, 255, 0.75), 0 -3px 5px 2px #000);
+  @include user-select(none);
+
+  a {
+    text-decoration:none;
+    color:#333;
+  }
+
+  .exoplanets-title {
+    position:absolute;
+    top:10px;
+    left:15px;
+    font-size:40px;
+    font-weight:bold;
+    text-shadow:#fff 0 0 5px;
+  }
+
+  .link {
+    $offset:350px;
+    $width:130px;
+
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    height:60px;
+    width:$width;
+    padding-top:20px;
+    text-align:center;
+    text-shadow:#fff 0 0 4px;
+
+    &.A {
+      left:$offset;
+    }
+    &.B {
+      left:$offset + $width;
+    }
+    &.C {
+      left:$offset + $width * 2;
+    }
+    &.D {
+      left:$offset + $width * 3;
+    }
+
+    &:hover {
+      background-color:#dddddd;
+      @include box-shadow(inset 0 0 2px 0 rgba(0,0,0,0.2))
+    }
+  }
+
+  .link.selected {
+    @include linear-gradient(#a6a6a6, #dddddd);
+    @include box-shadow(inset 0 0 4px 0 rgba(0,0,0,0.2))
+  }
+}
+
+
+.header + div {
+  margin-top:80px;
+}
+
+.shiny {
+  position:relative;
+  width:100%;
+  height:350px;
+  background-color:#000000;
+  background-image:url('images/Shiny.jpg');
+  @include box-shadow(-5px 0 5px -5px #000, 5px 0 5px -5px #000);
+  @include user-select(none);
+  z-index:1;
+
+  a.button {
+    position: absolute;
+    display:block;
+    text-decoration:none;
+    left:310px;
+    width:250px;
+    height:100px;
+    padding:0;
+    border:none;
+    @include linear-gradient(#333333, #171717);
+    @include border-radius(10px);
+    @include box-shadow(0 0 5px 1px #555);
+    text-align:left;
+    cursor:pointer;
+
+    &:active {
+      @include linear-gradient(top, #171717 0%, #101010 30%, #333333 100%);
+      @include box-shadow(0 0 5px 1px #555, inset 0 -1px 1px 1px #000);
+    }
+
+    span {
+      position:absolute;
+      display:block;
+      font-weight:bold;
+      font-size:40px;
+      line-height:98px;
+      color:#fff;
+      left:82px;
+      right:0;
+      top:0;
+      height:100%;
+      text-align:center;
+      text-shadow:#000 0 0 5px;
+    }
+
+    .icon {
+      position:absolute;
+      left:0;
+      width:100px;
+      top:0;
+      bottom:0;
+      background-repeat:no-repeat;
+    }
+
+    $button-vertical-offset: 60px;
+    &.table {
+      top:$button-vertical-offset;
+      .icon {
+        background-image:url('images/TableIcon.png');
+        background-position:12px 14px;
+      }
+    }
+
+    &.plots {
+      bottom:$button-vertical-offset;
+      .icon {
+        background-image:url('images/PlotIcon.png');
+        background-position:12px 12px;
+      }
+    }
+  }
+
+  table.counts {
+    position:absolute;
+    left:580px;
+    width:300px;
+    top:60px;
+    bottom:60px;
+    color:#fff;
+
+    td {
+      height:42px;
+      font-size:20px;
+      opacity:0.7;
+    }
+
+    td.count {
+      padding-right:4px;
+      text-align:right;
+      font-size:30px;
+      font-weight:bold;
+      text-shadow:#fff 0 0 5px;
+      opacity:1.0;
+    }
+  }
+}
+
+.content {
+  background-color:#e5e5e5;
+  background-image:url('images/ContentTexture.jpg');
+  min-height:200px;
+  @include box-shadow(0 0 5px 1px rgba(255, 255, 255, 0.75));
+  padding:10px;
+  text-align:justify;
+
+  p {
+    margin:10px;
+  }
+
+  .right {
+    float:right;
+    margin:12px 10px 10px 20px;
+  }
+
+
+  .reference-section {
+    @include box-shadow(inset 0 0 5px 0 rgba(0, 0, 0, 0.3));
+    background-color:rgba(255,255,255,0.6);
+    margin:20px -10px;
+    padding:20px;
+    text-align:center;
+
+    p {
+      margin:0 0 10px 0;
+    }
+
+    .research {
+      font-weight:bold;
+      font-size:18px;
+    }
+  }
+
+  .twtr-doc {
+    @include box-shadow(0 0 2px 0 #000);
+  }
+
+  h1:first-child {
+    margin-top:0;
+  }
+
+  h1 {
+    margin-bottom:10px;
+  }
+
+  h1 + h4 {
+    margin-top:10px;
+  }
+
+  h4 {
+    margin-top:20px;
+    margin-bottom:5px;
+    margin-left:10px;
+  }
+
+  p.footnote {
+    font-style:italic;
+    color:#777;
+    width:80%;
+    text-align:center;
+    margin:30px auto;
+    font-size:13px;
+    opacity:0.5;
+
+    &:hover {
+      opacity:1;
+    }
+  }
+
+  ul {
+    padding: 0 10px 0 40px;
+  }
+
+  li {
+    list-style-type:square;
+    margin:10px 0;
+  }
+}
+
+.footer {
+  position:relative;
+  background-color:#cccccc;
+  height:100px;
+  margin-bottom:20px;
+  @include border-bottom-radius(8px);
+
+  @include box-shadow(0 2px 5px 1px rgba(255, 255, 255, 0.75), 0 3px 5px 2px #000);
+
+  $logo-width: 130px;
+  $logo-spacing: (900px - $logo-width*6)/7;
+
+  a {
+    text-decoration:none;
+  }
+
+  .logo {
+    position:absolute;
+    opacity:0.6;
+    &:hover {
+      opacity:1.0;
+      cursor:pointer;
+    }
+    top:0;
+    bottom:0;
+    width:$logo-width;
+    background-repeat:no-repeat;
+    background-position:center center;
+  }
+
+  .ucb {
+    left:$logo-spacing;
+    background-image:url('images/logos/ucberkeley.png');
+  }
+
+  .cips {
+    left:$logo-spacing * 2 + $logo-width;
+    background-image:url('images/logos/cips.png');
+  }
+
+  .penn {
+    left:$logo-spacing * 3 + $logo-width * 2;
+    background-image:url('images/logos/penn.png');
+  }
+
+  .cehw {
+    left:$logo-spacing * 4 + $logo-width * 3;
+    background-image:url('images/logos/cehw.png');
+  }
+
+  .nsf {
+    left:$logo-spacing * 5 + $logo-width * 4;
+    background-image:url('images/logos/nsf.png');
+  }
+
+  .nasa {
+    left:$logo-spacing * 6 + $logo-width * 5;
+    background-image:url('images/logos/nasa.png');
+  }
+}
