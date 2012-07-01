@@ -1,0 +1,272 @@
+body {
+  background-color: #151515;
+  color: #333333;
+  background-image: url("images/BackgroundTexture.jpg");
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Helvetica, sans-serif; }
+
+a {
+  color: #000; }
+  a:visited {
+    color: #444; }
+
+.center-column {
+  width: 900px;
+  margin: 0 auto; }
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, white));
+  background-image: -webkit-linear-gradient(top, #eeeeee, white);
+  background-image: -moz-linear-gradient(top, #eeeeee, white);
+  background-image: -ms-linear-gradient(top, #eeeeee, white);
+  background-image: -o-linear-gradient(top, #eeeeee, white);
+  background-image: linear-gradient(top, #eeeeee, white);
+  height: 80px;
+  width: 900px;
+  -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.75), 0 -3px 5px 2px black;
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.75), 0 -3px 5px 2px black;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .header a {
+    text-decoration: none;
+    color: #333; }
+  .header .exoplanets-title {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: #fff 0 0 5px; }
+  .header .link {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 60px;
+    width: 130px;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: #fff 0 0 4px; }
+    .header .link.A {
+      left: 350px; }
+    .header .link.B {
+      left: 480px; }
+    .header .link.C {
+      left: 610px; }
+    .header .link.D {
+      left: 740px; }
+    .header .link:hover {
+      background-color: #dddddd;
+      -webkit-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.2); }
+  .header .link.selected {
+    background-color: #a6a6a6;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a6a6a6), color-stop(100%, #dddddd));
+    background-image: -webkit-linear-gradient(top, #a6a6a6, #dddddd);
+    background-image: -moz-linear-gradient(top, #a6a6a6, #dddddd);
+    background-image: -ms-linear-gradient(top, #a6a6a6, #dddddd);
+    background-image: -o-linear-gradient(top, #a6a6a6, #dddddd);
+    background-image: linear-gradient(top, #a6a6a6, #dddddd);
+    -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.2); }
+
+.header + div {
+  margin-top: 80px; }
+
+.shiny {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-color: #000000;
+  background-image: url("images/Shiny.jpg");
+  -webkit-box-shadow: -5px 0 5px -5px black, 5px 0 5px -5px black;
+  box-shadow: -5px 0 5px -5px black, 5px 0 5px -5px black;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1; }
+  .shiny a.button {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    left: 310px;
+    width: 250px;
+    height: 100px;
+    padding: 0;
+    border: none;
+    background-color: #333333;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #171717));
+    background-image: -webkit-linear-gradient(top, #333333, #171717);
+    background-image: -moz-linear-gradient(top, #333333, #171717);
+    background-image: -ms-linear-gradient(top, #333333, #171717);
+    background-image: -o-linear-gradient(top, #333333, #171717);
+    background-image: linear-gradient(top, #333333, #171717);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 1px #555555;
+    box-shadow: 0 0 5px 1px #555555;
+    text-align: left;
+    cursor: pointer; }
+    .shiny a.button:active {
+      background-color: #171717;
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #171717), color-stop(30%, #101010), color-stop(100%, #333333));
+      background-image: -webkit-linear-gradient(top, #171717 0%, #101010 30%, #333333 100%);
+      background-image: -moz-linear-gradient(top, #171717 0%, #101010 30%, #333333 100%);
+      background-image: -ms-linear-gradient(top, #171717 0%, #101010 30%, #333333 100%);
+      background-image: -o-linear-gradient(top, #171717 0%, #101010 30%, #333333 100%);
+      background-image: linear-gradient(top, #171717 0%, #101010 30%, #333333 100%);
+      -webkit-box-shadow: 0 0 5px 1px #555555, inset 0 -1px 1px 1px black;
+      box-shadow: 0 0 5px 1px #555555, inset 0 -1px 1px 1px black; }
+    .shiny a.button span {
+      position: absolute;
+      display: block;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 98px;
+      color: #fff;
+      left: 82px;
+      right: 0;
+      top: 0;
+      height: 100%;
+      text-align: center;
+      text-shadow: #000 0 0 5px; }
+    .shiny a.button .icon {
+      position: absolute;
+      left: 0;
+      width: 100px;
+      top: 0;
+      bottom: 0;
+      background-repeat: no-repeat; }
+    .shiny a.button.table {
+      top: 60px; }
+      .shiny a.button.table .icon {
+        background-image: url("images/TableIcon.png");
+        background-position: 12px 14px; }
+    .shiny a.button.plots {
+      bottom: 60px; }
+      .shiny a.button.plots .icon {
+        background-image: url("images/PlotIcon.png");
+        background-position: 12px 12px; }
+  .shiny table.counts {
+    position: absolute;
+    left: 580px;
+    width: 300px;
+    top: 60px;
+    bottom: 60px;
+    color: #fff; }
+    .shiny table.counts td {
+      height: 42px;
+      font-size: 20px;
+      opacity: 0.7; }
+    .shiny table.counts td.count {
+      padding-right: 4px;
+      text-align: right;
+      font-size: 30px;
+      font-weight: bold;
+      text-shadow: #fff 0 0 5px;
+      opacity: 1.0; }
+
+.content {
+  background-color: #e5e5e5;
+  background-image: url("images/ContentTexture.jpg");
+  min-height: 200px;
+  -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  text-align: justify; }
+  .content p {
+    margin: 10px; }
+  .content .right {
+    float: right;
+    margin: 12px 10px 10px 20px; }
+  .content .reference-section {
+    -webkit-box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 20px -10px;
+    padding: 20px;
+    text-align: center; }
+    .content .reference-section p {
+      margin: 0 0 10px 0; }
+    .content .reference-section .research {
+      font-weight: bold;
+      font-size: 18px; }
+  .content .twtr-doc {
+    -webkit-box-shadow: 0 0 2px 0 black;
+    box-shadow: 0 0 2px 0 black; }
+  .content h1:first-child {
+    margin-top: 0; }
+  .content h1 {
+    margin-bottom: 10px; }
+  .content h1 + h4 {
+    margin-top: 10px; }
+  .content h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px; }
+  .content p.footnote {
+    font-style: italic;
+    color: #777;
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 13px;
+    opacity: 0.5; }
+    .content p.footnote:hover {
+      opacity: 1; }
+  .content ul {
+    padding: 0 10px 0 40px; }
+  .content li {
+    list-style-type: square;
+    margin: 10px 0; }
+
+.footer {
+  position: relative;
+  background-color: #cccccc;
+  height: 100px;
+  margin-bottom: 20px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: 0 2px 5px 1px rgba(255, 255, 255, 0.75), 0 3px 5px 2px black;
+  box-shadow: 0 2px 5px 1px rgba(255, 255, 255, 0.75), 0 3px 5px 2px black; }
+  .footer a {
+    text-decoration: none; }
+  .footer .logo {
+    position: absolute;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .footer .logo:hover {
+      opacity: 1.0;
+      cursor: pointer; }
+  .footer .ucb {
+    left: 17.143px;
+    background-image: url("images/logos/ucberkeley.png"); }
+  .footer .cips {
+    left: 164.286px;
+    background-image: url("images/logos/cips.png"); }
+  .footer .penn {
+    left: 311.429px;
+    background-image: url("images/logos/penn.png"); }
+  .footer .cehw {
+    left: 458.571px;
+    background-image: url("images/logos/cehw.png"); }
+  .footer .nsf {
+    left: 605.714px;
+    background-image: url("images/logos/nsf.png"); }
+  .footer .nasa {
+    left: 752.857px;
+    background-image: url("images/logos/nasa.png"); }
