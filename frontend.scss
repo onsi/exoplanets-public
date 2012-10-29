@@ -184,6 +184,10 @@ a {
       text-shadow:#fff 0 0 5px;
       opacity:1.0;
     }
+
+    td.count.loading {
+      opacity:0.2;
+    }
   }
 }
 

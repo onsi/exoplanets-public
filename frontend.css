@@ -173,6 +173,8 @@ a {
       font-weight: bold;
       text-shadow: #fff 0 0 5px;
       opacity: 1.0; }
+    .shiny table.counts td.count.loading {
+      opacity: 0.2; }
 
 .content {
   background-color: #e5e5e5;
