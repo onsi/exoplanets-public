@@ -44,7 +44,7 @@ a {
     left: 15px;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: #fff 0 0 5px; }
+    text-shadow: white 0 0 5px; }
   .header .link {
     cursor: pointer;
     position: absolute;
@@ -53,7 +53,7 @@ a {
     width: 130px;
     padding-top: 20px;
     text-align: center;
-    text-shadow: #fff 0 0 4px; }
+    text-shadow: white 0 0 4px; }
     .header .link.A {
       left: 350px; }
     .header .link.B {
@@ -109,7 +109,6 @@ a {
     background-image: -ms-linear-gradient(top, #333333, #171717);
     background-image: -o-linear-gradient(top, #333333, #171717);
     background-image: linear-gradient(top, #333333, #171717);
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 5px 1px #555555;
     box-shadow: 0 0 5px 1px #555555;
@@ -137,7 +136,7 @@ a {
       top: 0;
       height: 100%;
       text-align: center;
-      text-shadow: #000 0 0 5px; }
+      text-shadow: black 0 0 5px; }
     .shiny a.button .icon {
       position: absolute;
       left: 0;
@@ -171,8 +170,12 @@ a {
       text-align: right;
       font-size: 30px;
       font-weight: bold;
-      text-shadow: #fff 0 0 5px;
+      text-shadow: white 0 0 5px;
       opacity: 1.0; }
+    .shiny table.counts a {
+      color: #fff; }
+      .shiny table.counts a:visited {
+        color: #fff; }
     .shiny table.counts td.count.loading {
       opacity: 0.2; }
 
@@ -235,9 +238,7 @@ a {
   background-color: #cccccc;
   height: 100px;
   margin-bottom: 20px;
-  -webkit-border-bottom-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
   border-bottom-right-radius: 8px;
   -webkit-box-shadow: 0 2px 5px 1px rgba(255, 255, 255, 0.75), 0 3px 5px 2px black;
   box-shadow: 0 2px 5px 1px rgba(255, 255, 255, 0.75), 0 3px 5px 2px black; }
@@ -255,20 +256,20 @@ a {
       opacity: 1.0;
       cursor: pointer; }
   .footer .ucb {
-    left: 17.143px;
+    left: 17.14286px;
     background-image: url("images/logos/ucberkeley.png"); }
   .footer .cips {
-    left: 164.286px;
+    left: 164.28571px;
     background-image: url("images/logos/cips.png"); }
   .footer .penn {
-    left: 311.429px;
+    left: 311.42857px;
     background-image: url("images/logos/penn.png"); }
   .footer .cehw {
-    left: 458.571px;
+    left: 458.57143px;
     background-image: url("images/logos/cehw.png"); }
   .footer .nsf {
-    left: 605.714px;
+    left: 605.71429px;
     background-image: url("images/logos/nsf.png"); }
   .footer .nasa {
-    left: 752.857px;
+    left: 752.85714px;
     background-image: url("images/logos/nasa.png"); }
