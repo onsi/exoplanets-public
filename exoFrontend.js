@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $.getJSON('/columns/counts', function(counts) {
       $('.count.exoplanets').html(counts['exoplanets']);
-      $('.count.imaged').html(counts['imaged']);
+      $('.count.other').html(counts['other']);
       $('.count.total').html(counts['total']);
       $('.count.kepler').html(counts['kepler']);
       $('.count.total_with_kepler').html(counts['total_with_kepler']);

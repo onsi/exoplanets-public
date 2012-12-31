@@ -164,20 +164,22 @@ a {
 
   table.counts {
     position:absolute;
-    left:580px;
-    width:300px;
-    top:60px;
+    left:590px;
+    width:290px;
+    top:20px;
     bottom:60px;
     color:#fff;
 
+    tr {
+      height:60px;
+    }
     td {
-      height:42px;
       font-size:20px;
-      opacity:0.7;
+      opacity:0.8;
     }
 
     td.count {
-      padding-right:4px;
+      padding-right:8px;
       text-align:right;
       font-size:30px;
       font-weight:bold;
@@ -185,8 +187,22 @@ a {
       opacity:1.0;
     }
 
+
+    .subtext {
+      opacity:0.5;
+      font-size:14px;
+    }
+
     a {
+      text-decoration: none;
       color:#fff;
+
+      &:hover {
+        text-decoration:underline;
+        .subtext {
+          opacity:0.7;
+        }
+      }
       &:visited {
         color:#fff;
       }

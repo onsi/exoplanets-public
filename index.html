@@ -44,23 +44,35 @@
       <table class="counts">
         <tr>
           <td class="count exoplanets loading">...</td>
-          <td><a href="/table?datasets=exoplanets">exoplanets.org planets</a></td>
+          <td>
+            <a href="/table?datasets=explorer">EOD Planets
+            <div class="subtext">Planets with good orbits listed in the Exoplanet Orbit Database</div>
+            </a>
+          </td>
         </tr>
         <tr>
-          <td class="count imaged loading">...</td>
-          <td><a href="/table?datasets=imaged">imaged/other planets</a></td>
+          <td class="count other loading">...</td>
+          <td>
+            <a href="/table?datasets=other">Other Planets
+            <div class="subtext">Including microlensing and imaged planets</div>
+          </a>
+          </td>
         </tr>
         <tr>
           <td class="count total loading">...</td>
-          <td><a href="/table?datasets=exoplanets,imaged">total planets</a></td>
+          <td><a href="/table">Total Confirmed Planets</a></td>
         </tr>
         <tr>
           <td class="count kepler loading">...</td>
-          <td><a href="/table?datasets=kepler">kepler planets</a></td>
+          <td><a href="/table?datasets=kepler">Unconfirmed Kepler Candidates</a></td>
         </tr>
         <tr>
           <td class="count total_with_kepler loading">...</td>
-          <td><a href="/table">total with kepler</a></td>
+          <td>
+            <a href="/table?datasets=explorer,kepler,other">Total Planets
+            <div class="subtext">Confirmed planets + Kepler Candidates</div>
+            </a>
+          </td>
         </tr>
       </table>
     </div>
