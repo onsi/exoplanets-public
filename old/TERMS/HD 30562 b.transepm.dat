@@ -1,9 +1,0 @@
-#Planetname | Best Tc | PER[day] | UPER | Tp[JD-2440000] | UTp | e | Ue | OM[deg] | UOM | K[m/s] | UK | gamma[m/s] | Ugamma | dv/dt[m/s/day] | Udv/dt | seTp[JD-2440000]
-HD 30562 b | 2457082.3543 | 1159 | 13 | 10127 | 51 | 0.756 | 0.039 | 79.4 | 7.3 | 33.9 | 2.8 | -1.6 | 1.5 | 0.0 | 0.0 |   10844.3948
-#RA | DEC | T14 | UT14 | V
-04 48 36.202 | -05 40 24.38 |          -NaN |       0.00000 |       5.77000
-#Ephemerides calculated on: Tue Mar 19 14:17:16 2013
-#Transit date in JD | Uncertainty | Secondary Eclipse in JD | Uncertainty | Transit date and uncertainty in Gregorian | Secondary Eclipse and uncertainty in Gregorian
-2457082.35432 |   27.32288 | 2457814.34430 |  104.90676 |     28 February 2015 20:30:13.05 +/-   27 days  7:44:57.075  |        1 March 2017 20:15:47.12 +/-  104 days 21:45:43.658
-2458241.12047 |   40.20999 | 2458973.11045 |  110.48422 |           2 May 2018 14:53:28.97 +/-   40 days  5:02:23.035  |          3 May 2020 14:39:03.04 +/-  110 days 11:37:16.333
-2459399.88663 |   53.14213 | 2460131.87661 |  117.11883 |          4 July 2021 09:16:44.89 +/-   53 days  3:24:39.945  |         6 July 2023 09:02:18.96 +/-  117 days  2:51: 7.128
