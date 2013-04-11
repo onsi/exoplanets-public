@@ -175,36 +175,32 @@
         or <a href="./exoplanets.csv">here</a>.
       </p>
 
-      <h1>Major Updates</h1>
 
+      <h1>Summary of Methodology</h1>
       <p>
-        The most important updates from the Wright et al. 2011 documentation of the EODs are below:
+        Part of the text below is included in Wright et al. (2011)
+        documentation of the EOD. Objects that are labeled with
+        "*" are updates from Wright et al. (2011).
       </p>
 
-      <h4>Kepler Objects of Interest (KOIs)</h4>
+      <h2>General</h2>
+
+      <h4>Uncertainties</h4>
       <p>
-        The Kepler Objects of Interst (KOIs) are stars that are
-        suspected to host one or more exoplanets, but yet to be
-        confirmed or validated. Although they are not counted as part
-        of the EOD due to their candidacy status, we include them in
-        our website so that these KOIs are put into the context of all
-        confirmed exoplanets. The KOIs listed in our table include two
-        past Kepler data releases and the most up-to-date release from
-        January 2013. The original data are from
-        the <a href="http://exoplanetarchive.ipac.caltech.edu/">NASA
-        Exoplanet Archive</a>.
+        We have recorded literature uncertainties in stellar masses, but when
+        estimating uncertainties in msini and a we conservatively assume a
+        minimum uncertainty in stellar mass of 5%.  We do this to account for
+        likely systematic errors in model estimates of stellar masses (limits
+        in their accuracy) for most planet-bearing stars.
+      </p>
+      
+      <p>
+        We now report asymmetric error bars throughout the database
+        in all fields. !Need to add more on how asymmetric error bars
+        are recorded!
       </p>
 
-      <h4>RSTAR</h4>
-      <p>
-        For stars with transiting planets, we record the radius with asymmetrical error bars when it is calculated in the literature.
-        For other stars with masses less than 0.6 Solar mass, we apply
-        the formula of <a href="http://adsabs.harvard.edu/abs/2010A%26ARv..18...67T">Torres et al (2010)</a> to our recorded spectroscopic parameters, log(g), Teff,
-        and [Fe/H].   The Torres formula has systematic errors of no more than 3%.  We propagate errors from our spectroscopic parameters assuming no
-        covariance into the field URSTAR.
-      </p>
-
-      <h4>Kepler planets</h4>
+      <h4>Kepler planets*</h4>
       <p>
         The extraordinary precision of the Kepler instrument and
         detailed ground-based follow up allows planets to be detected
@@ -222,26 +218,48 @@
         calculating MSINI from K.
       </p>
 
-      <h4>References</h4>
+      <h4>Kepler Objects of Interest (KOIs)*</h4>
       <p>
-        We have added references and URL fields for nearly every field
-        in the EOD;  all data in these fields are now uniquely
-        referenced.  The only fields without rigorous citations are
-        those containing coordinates, magnitudes, and rotation/activity measurements.
+        The Kepler Objects of Interst (KOIs) are stars that are
+        suspected to host one or more exoplanets, but yet to be
+        confirmed or validated. Although they are not counted as part
+        of the EOD due to their candidacy status, we include them in
+        our website so that these KOIs are put into the context of all
+        confirmed exoplanets. The KOIs listed in our table include two
+        past Kepler data releases and the most up-to-date release from
+        January 2013. The original data are from
+        the <a href="http://exoplanetarchive.ipac.caltech.edu/">NASA
+        Exoplanet Archive</a>.
       </p>
 
-      <h4>Asymmetric uncertainties</h4>
+
+
+      
+      <h2>Planet Information</h2>
+
+      <h4>KEPID, KOI, KDE*</h4>
+      
+      <h4>MICROLENSING*</h4>
+
+      <h4>TIMING*</h4>
+
+      <h4>IMAGING*</h4>
+
+      <h4>ASTROMETRY*</h4>
+      
+      
+      
+      <h2>Stellar Parameters</h2>
+
+      <h4>GAMMA*</h4>
       <p>
-        We are updating asymmetric error bars throughout the database
-        in all fields.
+	Systemic radial velocity of the star.
       </p>
 
-      <h1>Summary of Methodology</h1>
-      <p>
-        The text below is subject to the updates above.
-      </p>
 
-      <h4>Orbital parameters:</h4>
+      
+      <h2>Orbit Parameters</h2>
+
       <p>
         We record the published fundamental observables of single-lined
         spectroscopic binaries:  period, RV semiamplude, and eccentricity,
@@ -280,6 +298,12 @@
         was misreported in the original paper.
       </p>
 
+      <h4>MASS*</h4>
+      
+      <h4>SEP*</h4>
+
+      <h4>BIGOM*</h4>
+      
       <h4>a</h4>
       <p>
         We calculate orbital semimajor axes directly from Kepler's Third Law
@@ -300,39 +324,58 @@
         in NStED, no plot is shown.
       </p>
 
-      <h4>Parallaxes</h4>
-      <p>
-        We have adopted the van Leeuwen (2008) parallaxes (from a rereduction of the Hipparcos data)
-        for most stars.
-      </p>
+      
+      
+      <h2>Transit Parameters</h2>
 
-      <h4>Transiting planets</h4>
       <p>
-        We have recorded the fundamental photometric transit parameters and
-        some derived quantities as they appear in the literature.  In some cases we
-        calculate time of periastron passage and the argument of periastron,
-        planetary density, planetary gravity, or the impact parameter where
-        those elements are not listed explicitly.
+	We have recorded the fundamental photometric transit parameters
+	and some derived quantities as they appear in the literature.
+	In some cases we calculate time of periastron passage and the
+	argument of periastron, planetary density, planetary gravity, or
+	the impact parameter where those elements are not listed
+	explicitly.
       </p>
 
       <h4>Radius, density and gravity</h4>
       <p>
-        Where available, we record the published radius, density, gravity for transiting
-        planets from TRANSITREF, and do not attempt to recompute them from the
-        transit parameters except where they are not otherwise available.
-        Therefore, these values may be inconsistent with
-        the mass derived from MSINI and the inclination because our MSINI
-        values may have been computed from different spectroscopic orbital
-        parameters or assuming a different stellar mass.
+        Where available, we record the published radius, density,
+        gravity for transiting planets from TRANSITREF, and do not
+        attempt to recompute them from the transit parameters except
+        where they are not otherwise available.  Therefore, these
+        values may be inconsistent with the mass derived from MSINI
+        and the inclination because our MSINI values may have been
+        computed from different spectroscopic orbital parameters or
+        assuming a different stellar mass.
       </p>
+      
+      <h4>DR, RR*</h4>
 
-      <h4>Uncertainties</h4>
+      
+
+      <h2>SE (Secondary Eclipse) Depth*</h2>
+
+      <h4>SE, SEDEPTHJ, etc.</h4>
+
+      
+      
+      <h2>Fit & References</h2>
+
+      <h4>PLANETDISCMETH, STARDISCMETH</h4>
       <p>
-        We have recorded literature uncertainties in stellar masses, but when
-        estimating uncertainties in msini and a we conservatively assume a
-        minimum uncertainty in stellar mass of 5%.  We do this to account for
-        likely systematic errors in model estimates of stellar masses (limits
-        in their accuracy) for most planet-bearing stars.
+        We have replaced the field DISCMETH with two new fields:
+        PLANETDISCMETH and STARDISCMETH. PLANETDISCMETH documents the
+        method of discovery for a specific planet, while STARDISCMETH
+        documents the method of discovery for the first planet
+        discovered in a system.
+      </p>
+      
+      <h4>References</h4>
+      <p>
+        We have added references and URL fields for nearly every field
+        in the EOD;  all data in these fields are now uniquely
+        referenced.  The only fields without rigorous citations are
+        those containing coordinates, magnitudes, and rotation/activity measurements.
       </p>
 
       <h4>FIRSTREF</h4>
@@ -346,6 +389,21 @@
         planet discoveries, confirmations, and discovery claims is available
         at <a href="http://obswww.unige.ch/~naef/who_discovered_that_planet.html">http://obswww.unige.ch/~naef/who_discovered_that_planet.html</a>.
       </p>
+      
+      <h2> Stellar Properties </h2>
+      
+      <h4>RSTAR*</h4>
+      <p>
+        For stars with transiting planets, we record the radius with asymmetrical error bars when it is calculated in the literature.
+        For other stars with masses less than 0.6 Solar mass, we apply
+        the formula of <a href="http://adsabs.harvard.edu/abs/2010A%26ARv..18...67T">Torres et al (2010)</a> to our recorded spectroscopic parameters, log(g), Teff,
+        and [Fe/H].   The Torres formula has systematic errors of no more than 3%.  We propagate errors from our spectroscopic parameters assuming no
+        covariance into the field URSTAR.
+      </p>
+
+      <h4>RHOSTAR*</h4>
+
+      <h4>KP*</h4>
 
       <h4>JHK Photometry</h4>
       <p>
@@ -358,6 +416,13 @@
         activity measurements are from various sources, usually planet
         discovery papers plus references cited in Butler et al. (2006).
       </p>
+
+      <h4>Parallaxes</h4>
+      <p>
+        We have adopted the van Leeuwen (2008) parallaxes (from a rereduction of the Hipparcos data)
+        for most stars.
+      </p>
+       
 
       <p class="footnote">
        This research has made use of the <a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD database</a>, operated at CDS,
