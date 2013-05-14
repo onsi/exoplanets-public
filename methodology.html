@@ -41,7 +41,16 @@
       <h1>Documentation and Methodology</h1>
 
       <p>
-        The Exoplanet Data Explorer (EDE) gives Web users access to the Exoplanet Orbit Database (EOD). Our full methodology is <a href="http://adsabs.harvard.edu/abs/2011PASP..123..412W">here</a> and is available on <a href="http://xxx.lanl.gov/abs/1012.5676">astro-ph</a>.
+        The Exoplanet Data Explorer (EDE) gives Web users access to
+        the Exoplanet Orbit Database (EOD). Our full methodology
+        is <a href="http://adsabs.harvard.edu/abs/2011PASP..123..412W">here</a>
+        and is available
+        on <a href="http://xxx.lanl.gov/abs/1012.5676">astro-ph</a>. Description
+        of major updates from the Wright et al. (2011) documentation
+        can be found below (labeled with '<b>*</b>' in
+        the <a href="#methodology"><b>Summary of Methodology</b></a>
+        section). Questions and comments should be directed
+        to <a href="mailto:datamaster@exoplanets.org">datamaster@exoplanets.org</a>.
       </p>
 
       <h1>FAQ</h1>
@@ -164,7 +173,12 @@
 
       <h4>How do I make the Table/Plotter do what I want?</h4>
       <p>
-        Try the <a href="./help/common/data">help pages</a>.  User the left-hand column to browse various help topics.  These pages include videos made for the Kepler Data Explorer.  Though they differ in the available planet properties, the behavior of the Exoplanets Data Explorer and the Kepler Data Explorer are identical.
+        Try the <a href="./help/common/data">help pages</a>.  User the
+        left-hand column to browse various help topics.  These pages
+        include videos made for the Kepler Data Explorer.  Though they
+        differ in the available planet properties, the behavior of the
+        Exoplanets Data Explorer and the Kepler Data Explorer are
+        identical.
       </p>
 
       <h4>Why doesn't the "Export" button export all of the data in the EOD?</h4>
@@ -176,9 +190,9 @@
       </p>
 
 
-      <h1>Summary of Methodology</h1>
+      <h1><a id="methodology">Summary of Methodology</a></h1>
       <p>
-        Part of the text below is included in Wright et al. (2011)
+        Some of the content below is included in Wright et al. (2011)
         documentation of the EOD. Objects that are labeled with
         "*" are updates from Wright et al. (2011).
       </p>
@@ -195,12 +209,24 @@
       </p>
       
       <p>
-        We now report asymmetric error bars throughout the database
-        in all fields. !Need to add more on how asymmetric error bars
-        are recorded!
+        We now report asymmetric error bars throughout the database in
+        all fields. For quantities with asymmetric uncertainties from
+        the literature, we record the uncertainty field as half of the
+        span between the upper and lower limits. We store the
+        asymmetry in an additional field, which ends in D, as the
+        value of the upper uncertainty. For instance, <i>e</i> =
+        0.5<sup>+0.1</sup><sub>-0.2</sub> would be stored as three
+        fields: <code><font size="4">ECC =
+        0.5</font></code>, <code><font size="4">UECC =
+        0.15</font></code>, and <code><font size="4">UECCD =
+        0.1</font></code>.
       </p>
 
-      <h4>Kepler planets*</h4>
+
+      <h2>Kepler Planets and Kepler Objects of Interest (KOIs)*</h2>
+
+      
+      <h4>Kepler Planets*</h4>
       <p>
         The extraordinary precision of the Kepler instrument and
         detailed ground-based follow up allows planets to be detected
@@ -223,40 +249,82 @@
         The Kepler Objects of Interst (KOIs) are stars that are
         suspected to host one or more exoplanets, but yet to be
         confirmed or validated. Although they are not counted as part
-        of the EOD due to their candidacy status, we include them in
-        our website so that these KOIs are put into the context of all
-        confirmed exoplanets. The KOIs listed in our table include two
-        past Kepler data releases and the most up-to-date release from
+        of the EOD due to their status of being 'candidates', we
+        include them in our website so that these KOIs are put into
+        the context of all confirmed exoplanets. To display the KOIs
+        in the EDE table, check the 'Kepler' option on the upper left
+        of the table (default selection only includes 'Orbit Database'
+        and 'Other'). The KOIs listed in our table include two past
+        Kepler data releases and the most up-to-date release from
         January 2013. The original data are from
         the <a href="http://exoplanetarchive.ipac.caltech.edu/">NASA
         Exoplanet Archive</a>.
       </p>
-
-
-
+      <p>
+	The three fields for identifying a Kepler planet or a KOI
+	are <b>KEPID*</b> (the unique Kepler star
+	identifier), <b>KOI*</b> (KOI object number), and <b>KDE*</b>
+	(if true, the planet/planet candidate appears in
+	the <a href="http://exoplanetarchive.ipac.caltech.edu/">Kepler
+	archive</a>).
+      </p>
+      
+      
       
       <h2>Planet Information</h2>
 
-      <h4>KEPID, KOI, KDE*</h4>
-      
-      <h4>MICROLENSING*</h4>
+      <h4>Planets Discovered via Microlensing or Imaging*</h4>
+      <p>
+	EOD now includes planets discovered via microlensing or
+	imaging (their corresponding
+	<a href="planetdiscmeth">PLANETDISCMETH</a> fields are
+	'Microlensing' or 'Imaging'). They can be displayed in the EDE
+	table by checking the 'Other' option on the upper left of the
+	table.
+      </p>
 
-      <h4>TIMING*</h4>
+      <p>
+	The planets discovered via IMAGING must satisfy the criteria
+	below in order to be included in the EOD (as approved by the
+	QUAlity Control Board of the Exoplanet Database, QUACBED):
+	<ul>
+	  <li> Planet-star mass ratio q &#60; 0.024 (&#60; 24
+	  M<sub>Jup</sub> for a solar mass star); and in general we
+	  require (q+&sigma;<sub>q</sub>) < 0.024, where
+	  &sigma;<sub>q</sub> is the uncertainty in q. </li>
+	  <li> SEP &#60; 100 AU &times;
+	  (M<sub>star</sub>/M<sub>sun</sub>), where SEP is the
+	  semi-major axis a if a is known, and the projected
+	  separation otherwise. </li>
+	  <li> Confidently detected: the detection is clearly of a
+	  real astrophysical source, and will unlikely later be found to
+	  have been spurious. </li>
+	  <li> Confidently bound: in opinion of the QUACBED the object
+	  will not be later found to be unbound or a chance
+	  alignment. </li>
+	</ul>
+	For the last two criteria, the default confidence level for
+	acceptance is 95%, though it may be hard to quantify in some
+	cases.
+      </p>
 
-      <h4>IMAGING*</h4>
-
-      <h4>ASTROMETRY*</h4>
-      
-      
+      <p>
+	We also record whether a planet is detected
+	via <b>MICROLENSING*</b>, <b>TIMING*</b>, <b>IMAGING*</b>,
+	and <b>ASTROMETRY*</b>. Note that a planet can have any of the
+	four fields being true but have a different discovery
+	method. For instance, some of the Kepler planets have TIMING =
+	true, but they were not discovered via TIMING initially but
+	with TRANSIT (PLANETDISCMETH = TRANSIT).
+      </p>
+       
       
       <h2>Stellar Parameters</h2>
 
-      <h4>GAMMA*</h4>
       <p>
-	Systemic radial velocity of the star.
+	We now record <b>GAMMA*</b>, the systemic radial velocity of the star.
       </p>
-
-
+      
       
       <h2>Orbit Parameters</h2>
 
@@ -279,30 +347,57 @@
 
       <h4>m sin(i)</h4>
       <p>
-        From the orbital parameters and the mass of the host star we calculate
-        the "minimum mass" of the planet from the mass function, as described
-        in Butler et al. 2006.  Note that we calculate this quantity
-        separately for each planet in a multiplanet system, as though it were
-        a singleton planet.  For simplicity and consistency, we always denote
-        this quantity "m sin(i)", though strictly speaking it is simply the
-        minimum value for the planet's mass as calculated from the mass
+        From the orbital parameters and the mass of the host star we
+        calculate the "minimum mass" of the planet from the mass
+        function, as described in Butler et al. 2006.  Note that we
+        calculate this quantity separately for each planet in a
+        multiplanet system, as though it were a singleton planet.  For
+        simplicity and consistency, we always denote this quantity "m
+        sin(i)", though strictly speaking it is simply the minimum
+        value for the planet's mass as calculated from the mass
         function.
       </p>
 
       <p>
-        m sini will occasionally differ from the values listed in the paper
-        cited in ORBREF.  The most common reason for this is that we have
-        adopted a different stellar mass than that listed in ORBREF.  In other
-        cases, inclinations are known from transits, or constrained through
-        astrometry or dynamical considerations.  In a small number of cases m sin (i)
-        was misreported in the original paper.
+        m sin(i) will occasionally differ from the values listed in
+        the paper cited in ORBREF.  The most common reason for this is
+        that we have adopted a different stellar mass than that listed
+        in ORBREF.  In other cases, inclinations are known from
+        transits, or constrained through astrometry or dynamical
+        considerations.  In a small number of cases m sin(i) was
+        misreported in the original paper.
+      </p>
+
+      <p>
+	For planets in systems which do not have radial velocity
+	measurements, we calculate their m sin(i) values if there are
+	constraints on the planet mass (MASS) and the inclination I
+	(e.g., via timing). In this case, the MSINIREF field is set
+	to "Calculated from MASS and I".
       </p>
 
       <h4>MASS*</h4>
+      <p>
+	We record in this field the planet mass, which is either
+	directly measured (e.g., via microlensing) or calculated based
+	on MSINI and a known inclination I. In the latter case, the
+	MASSREF field is set to "Calculated from MSINI and I". For
+	comparison purposes (especially useful when plotting), planets
+	with known MSINI but not I have MASS = MSINI and MASSREF =
+	"Set to MSINI; I unknown".
+      </p>
       
       <h4>SEP*</h4>
-
+      <p>
+	Separation between the planet and its host star. SEP is set to
+	the semi-major axis a when a is known (SEPREFF = "Set to A"),
+	and the projected separation otherwise.
+      </p>
+	
       <h4>BIGOM*</h4>
+      <p>
+	Longitude of the ascending node.
+      </p>
       
       <h4>a</h4>
       <p>
@@ -350,18 +445,28 @@
       </p>
       
       <h4>DR, RR*</h4>
-
+      <p>
+	DR is the distance between the planet and the star at
+	mid-transit in the unit of stellar radii. RR is the
+	planet/star radius ratio.
       
 
       <h2>SE (Secondary Eclipse) Depth*</h2>
 
-      <h4>SE, SEDEPTHJ, etc.</h4>
-
+      <h4>SE, SEDEPTHJ, SEDEPTHH etc.</h4>
+      <p>
+	SE is true if the planet has at least one secondary eclipse
+	detected in any of these bands: J, H, Ks, KP (Kepler
+	photometry band), IRAC1 (3.6 &mu;m), IRAC2 (4.5 &mu;m), IRAC3
+	(5.8 &mu;m), and IRAC4 (8.0 &mu;m). The fields SEDEPTHJ,
+	SEDEPTHH, ... , SEDEPTH80 are the secondary eclipse
+	depths in these bands (in relative flux; unitless).
+      </p>
       
       
       <h2>Fit & References</h2>
 
-      <h4>PLANETDISCMETH, STARDISCMETH</h4>
+      <h4><a id="planetdiscmeth">PLANETDISCMETH</a>, STARDISCMETH*</h4>
       <p>
         We have replaced the field DISCMETH with two new fields:
         PLANETDISCMETH and STARDISCMETH. PLANETDISCMETH documents the
@@ -402,8 +507,15 @@
       </p>
 
       <h4>RHOSTAR*</h4>
+      <p>
+	Density of star as measured from transit photometry and radial
+	velocity information, and for some cases from asteroseismology.
+      </p>
 
       <h4>KP*</h4>
+      <p>
+	Magnitude in the Kepler photometry band in the optical from
+	400 to 865 nm. 
 
       <h4>JHK Photometry</h4>
       <p>
