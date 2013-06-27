@@ -88,17 +88,18 @@
       </p>
 
       <p>
-        On the other hand, if you want a comprehensive list of all planet
-        announcements that have not been disproven; or a list of real planets
-        that lack well-measured orbits (including microlensing planets and
-        imaged planets); or planets orbiting things other than single,
-        "ordinary" stars (like pulsars, white dwarfs, or hot subdwarfs); or
-        you would like to decide for yourself which planets to include in your
-        sample, you should use another site (we list our favorite ones <a
-        href="./exoplanetlinks.html">here</a>).  We use these sites regularly
-        to keep up-to-date on planet discoveries, and we share
-        information with them about literature errors. We consider these
-        sites complementary, serving slightly different purposes from exoplanets.org.
+        On the other hand, if you want a comprehensive list of all
+        planet announcements that have not been disproven so you would
+        like to decide for yourself which planets to include in your
+        sample; or you would like comprehensive bibliographies or
+        lists of many measurements for various stellar parameters; or
+        if you are looking for the data underlying these parameters,
+        you may want to use another site (we list our favorite
+        ones <a href="./exoplanetlinks.html">here</a>).  We use these
+        sites regularly to keep up-to-date on planet discoveries, and
+        we share information with them about literature errors. We
+        consider these sites complementary, serving slightly different
+        purposes from exoplanets.org.
       </p>
 
       <h4>
@@ -122,13 +123,6 @@
           to keep an updated list of planets with "good" orbits by our own
           published and peer-reviewed criteria, and
           this database is our way to share that list with the public.
-        </li>
-        <li>
-          The EOD is a database of stellar properties, transit parameters,
-          and orbital elements of planets around "normal" stars.  If an
-          exoplanet's orbit is not well measured (because it was discovered via
-          imaging, for instance),
-          it is not in our database
         </li>
         <li>
           We are not all-seeing;  sometimes we miss an ephemeris update,
@@ -165,7 +159,8 @@
         domain of little omega to [0,360).
       </p>
 
-      <h4>Why doesn't FIRSTREF refer to this prior press release / posterabstract / conference proceeding?</h4>
+      <h4>Why doesn't FIRSTREF refer to this prior press release /
+      poster abstract / conference proceeding?</h4>
       <p>
         The EOD contains only peer-reviewed references; see below.  The
         FIRSTREF field is not a "credit" field.
@@ -322,7 +317,11 @@
       <h2>Stellar Parameters</h2>
 
       <p>
-	We now record <b>GAMMA*</b>, the systemic radial velocity of the star.
+	We now record <b>GAMMA*</b>, defined as the systemic radial
+	velocity of the star-planet system center of mass with respect
+	to the Solar System barycenter. It is not measured for all
+	systems, and there are systematic uncertainties in these
+	numbers below the 1 km/s level.
       </p>
       
       
@@ -401,9 +400,12 @@
       
       <h4>a</h4>
       <p>
-        We calculate orbital semimajor axes directly from Kepler's Third Law
+        We calculate orbital semi-major axes directly from Kepler's Third Law
         in all cases.  In cases where it differs from literature values, the
-        usual culprit is that we have adopted a different stellar mass.
+        usual culprit is that we have adopted a different stellar
+        mass. When the system does not have a measured orbital period
+        or a stellar mass estimate, the semi-major axis value 'A' is
+        unavailable and set to NaN.
       </p>
 
       <h4>Radial velocities and orbital fit</h4>
@@ -413,10 +415,10 @@
         upper-left of each planet's minipage, which can be accessed by
         clicking on a planet's name.  The radial velocities in this plot are
         not necessarily those of the orbital reference, but are representative
-        velocities collected from NStED.  This feature is not fully supported
+        velocities collected from the Exoplanet Archive.  This feature is not fully supported
         -- for many stars, including binaries, certain multiplanet systems,
         and those for which no velocities are published or otherwise available
-        in NStED, no plot is shown.
+        in The Exoplanet Archive, no plot is shown.
       </p>
 
       
