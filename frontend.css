@@ -145,22 +145,34 @@ a {
       bottom: 0;
       background-repeat: no-repeat; }
     .shiny a.button.table {
-      top: 60px; }
-      .shiny a.button.table .icon {
+      top: 0px; }
+    .shiny a.button.table .icon {
         background-image: url("images/TableIcon.png");
         background-position: 12px 14px; }
     .shiny a.button.plots {
-      bottom: 60px; }
-      .shiny a.button.plots .icon {
+	bottom: 120px; }
+    .shiny a.button.plots .icon {
         background-image: url("images/PlotIcon.png");
         background-position: 12px 12px; }
-  .shiny table.counts {
-    position: absolute;
-    left: 590px;
-    width: 290px;
-    top: 20px;
-    bottom: 60px;
-    color: #fff; }
+    .shiny a.button.form {
+	top: 240px; }
+    .shiny a.button.form .icon {
+        background-image: url("images/FormIcon.png");
+        background-position: 12px 12px; }
+    .shiny .form .beta {
+        background-image: url('./beta.png');
+        background-position: 0px 0px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 130px; }
+    .shiny table.counts {
+	position: absolute;
+	left: 590px;
+	width: 290px;
+	top: 20px;
+	bottom: 60px;
+	color: #fff; }
     .shiny table.counts tr {
       height: 60px; }
     .shiny table.counts td {
