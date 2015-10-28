@@ -160,7 +160,7 @@ a {
         background-image: url("images/FormIcon.png");
         background-position: 12px 12px; }
     .shiny .form .beta {
-        background-image: url('./images/beta.png');
+        background-image: url('images/beta.png');
         background-position: 0px 0px;
         width: 40px;
         height: 40px;
